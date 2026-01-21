@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"f347b887ab42073c","type":"group","x":120,"y":-300,"width":340,"height":500,"label":"Marketing Foundations"},
+		{"id":"2d85b14497868f31","type":"text","text":"Captures all of the data of marketing media","x":-859,"y":-376,"width":250,"height":60},
+		{"id":"44d0e243442fa6e1","type":"text","text":"AI algorithms for validation","x":190,"y":-280,"width":200,"height":50},
+		{"id":"ce09fbe11f529129","type":"text","text":"Images work better than videos","x":172,"y":120,"width":250,"height":60},
+		{"id":"0fad2c790b7a6a66","type":"text","text":"# [[Win on Global Relevance]] ","x":190,"y":-172,"width":250,"height":60},
+		{"id":"6e2da01f94e7929a","type":"text","text":"[[Creative excellence wins]]","x":176,"y":-80,"width":214,"height":50},
+		{"id":"bb6e5598dc968ccf","type":"text","text":"[[BIG 7]]","x":-480,"y":240,"width":250,"height":60},
+		{"id":"7023fc75d1d4e89c","type":"text","text":"Manage an agency of 137 people analyzing data and do email marketing since 90's\nBiggest in his industry ","x":-555,"y":-512,"width":245,"height":166},
+		{"id":"bbc6721592a74e5f","type":"text","text":"Analyze intricate marketing data","x":-680,"y":-286,"width":250,"height":60},
+		{"id":"cb8584d6226adab9","type":"text","text":"# Source:\nhttps://youtu.be/HjUJf5bKCpU?si=FTGIz_NvV1e1Ac3X\n","x":-461,"y":-142,"width":209,"height":182},
+		{"id":"838cb68c14e3a8e9","type":"text","text":"Advertising comes naturally ","x":190,"y":20,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"84e8c14c428643e3","fromNode":"7023fc75d1d4e89c","fromSide":"bottom","toNode":"cb8584d6226adab9","toSide":"top"},
+		{"id":"1c22d7753d436cca","fromNode":"cb8584d6226adab9","fromSide":"right","toNode":"44d0e243442fa6e1","toSide":"left"},
+		{"id":"201425df5db11719","fromNode":"cb8584d6226adab9","fromSide":"right","toNode":"6e2da01f94e7929a","toSide":"left"},
+		{"id":"c5d0be05dcc7c75f","fromNode":"cb8584d6226adab9","fromSide":"right","toNode":"838cb68c14e3a8e9","toSide":"left"},
+		{"id":"96f4069f1609e6d7","fromNode":"cb8584d6226adab9","fromSide":"right","toNode":"0fad2c790b7a6a66","toSide":"left"},
+		{"id":"9919032275530532","fromNode":"cb8584d6226adab9","fromSide":"bottom","toNode":"bb6e5598dc968ccf","toSide":"top"},
+		{"id":"a39a4a5a3606c4b6","fromNode":"cb8584d6226adab9","fromSide":"right","toNode":"ce09fbe11f529129","toSide":"left"},
+		{"id":"6cb88ec053173e74","fromNode":"bbc6721592a74e5f","fromSide":"bottom","toNode":"cb8584d6226adab9","toSide":"top"},
+		{"id":"d6b7c7ddbf559bcd","fromNode":"2d85b14497868f31","fromSide":"bottom","toNode":"cb8584d6226adab9","toSide":"top"}
+	]
+}
