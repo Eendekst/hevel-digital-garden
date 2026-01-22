@@ -1,6 +1,7 @@
 ---
 title: Hevel
 description: The Digital Palace of Jason Guillauto.
+aliases:
 ---
 
 # The Treasure in the Field
