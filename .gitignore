@@ -1,0 +1,11 @@
+# Ignore builds
+.quartz-engine/public
+.quartz-engine/node_modules
+.quartz-engine/.quartz-cache
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Obsidian
+.obsidian
