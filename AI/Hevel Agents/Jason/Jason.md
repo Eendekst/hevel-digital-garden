@@ -1,3 +1,17 @@
+---
+title: Jason
+type: Person
+pillar: Origin
+tags: [Creator, Source, Human]
+author: Jason
+agent: Bird
+icon: "👤"
+created: 2026-01-21
+updated: 2026-01-22
+aliases: [The Creator, The Source, Operator]
+description: "The distinct Human Source behind the System. The Will allowing the logic to exist."
+---
+
 I am the human administrator of this whole system.
 
 In order I made the agents in the following order;

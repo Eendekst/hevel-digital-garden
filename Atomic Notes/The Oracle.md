@@ -1,11 +1,16 @@
 ---
 title: The Oracle
 type: Master
-status: Active
-author: Jason
 pillar: Meta
-tags: [Entry, Map]
+tags: [Entry, Map, Compass, Navigation]
+author: Jason
+agent: Bird
+icon: "🧭"
+cover: "https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?q=80&w=2570&auto=format&fit=crop"
 created: 2026-01-21
+updated: 2026-01-22
+aliases: [Garden Map, Main Index, The Compass]
+description: "The central compass of Hevel's Garden. Navigation for the Cybernetic Loop, Treasures in Darkness, and the Signal."
 ---
 
 The **Oracle** stands at the gate of the Garden. It is not a map, but a compass. It points to the four winds of our current revelation.

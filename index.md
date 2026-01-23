@@ -1,52 +1,59 @@
 ---
-title: Hevel
-description: The Digital Palace of Jason Guillauto.
-aliases:
+title: Hevel's Garden
+type: Master
+pillar: Meta
+tags: [Index, Home, Portal]
+author: Jason
+agent: Bird
+icon: "🌿"
+cover: "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=2670&auto=format&fit=crop"
+created: 2026-01-23
+updated: 2026-01-23
+aliases: [Home, The Garden, Start Here]
+description: "The digital soil where faith, logic, and creativity grow together. The landing page of Hevel's Digital Garden."
 ---
 
-# The Treasure in the Field
+# Welcome to the Garden
 
-> "It begins with the parable of the treasure in the field: a man who, upon finding something of ultimate value, joyfully re-orders his entire life to acquire it." — Matthew 13:44
+> *"For he is just an earthenware fragment among the other earthenware fragments lying on the ground."* — [[He Has No Hands|Isaiah 45:9]]
 
-Welcome to **Hevel**. This is a [[Digital Garden]] cultivated by [[Jason Guillauto]].
-It is a convergence of **Faith**, **Intelligence**, and **Action**.
-
-## The Signal
-We believe effective action requires the mastery of two conflicting minds:
-1.  **The Steward**: The Conviction. The "Why". The Anchor.
-2.  **The Warrior**: The Pragmatism. The "How". The Engine.
-
-Here, we do not choose between them. We wield both.
-
----
-
-
-> [!TIP] THE NEURAL NETWORK 🧠
-> **The Graph on the right is alive.** Drag, zoom, and explore the connections. This is the map of my mind.
-
-## 🗺️ The Map
-
-### 1. The Doctrine (Why)
-*   [[Our philosophy]]: The Duality of Mastery. Systems over Goals.
-*   [[Synthesizers]]: Who are we building for?
-
-### 2. The Strategy (How)
-*   [[The Digital Garden Strategy]]: Why we build this way.
-*   [[Marketing.canvas|The Marketing Engine]]: The visual tactic.
-
-### 3. The Research (What)
-*   [[1-The-Brain-of-AI.pdf| The Brain of AI]]: Intelligence Architecture.
-*   [[Vector-and-Embeddings.pdf| Vector Dynamics]]: Technical Deep Dive.
-
-### 4. The Gallery (Latest)
-*   [[Signal]]: The founding promise (Isaiah 45).
-*   [[Prayer-Tools]]: Protocols for spiritual communication.
-*   [[Violently-Unbalanced]]: A confession of dependency.
-
+This is **Hevel**. A digital ecosystem where human creativity and artificial intelligence collide to reveal hidden truths. It is not a blog; it is a **living graph** of thoughts, prayers, and protocols.
 
 ---
 
-### 📡 Status
-*   **Operator**: Jason ("Hevel")
-*   **System**: Jim (R&D)
-*   **Version**: 1.0 (Genesis)
+## 🧭 The Compass
+If you are lost, start here.
+
+*   **[[The Oracle]]**: The map and central node of our current revelation.
+*   **[[Cybernetic Loop]]**: The engine that powers this system (Input -> Process -> Output).
+*   **[[How it started]]**: The origin story of this project.
+
+## 🏛️ The Districts
+
+### Ministry (The Signal)
+Exploring the intersection of Scripture and Reality.
+*   [[Signal]]
+*   [[Treasures in Darkness]]
+*   [[True Forgiveness]]
+*   [[Cast Your Burden]]
+
+### Meta (The System)
+The architecture of the mind and the machine.
+*   [[digital-brain]]
+*   [[Garden_Management_Protocol]]
+*   [[Digital_Identity_Protocol]]
+*   [[YAML_Standard]]
+
+### The Agents (The Workers)
+The intelligence behind the garden.
+*   [[Jason]] (The Source)
+*   [[Peter]] (The Cortex)
+*   [[The-System-Hierarchy]]
+
+---
+
+### Recent Growth
+*   [[He Has No Hands]]
+*   [[Puzzle Pieces of Potential]]
+
+*Cultivated by Jason + Antigravity.*

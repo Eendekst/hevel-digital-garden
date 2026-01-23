@@ -1,11 +1,15 @@
 ---
 title: Cybernetic Loop
 type: Atomic
-status: Active
-author: Jason
 pillar: Meta
 tags: [System, Feedback, Automation, Future]
+author: Jason
+agent: Jim
+icon: "🔄"
 created: 2026-01-22
+updated: 2026-01-22
+aliases: [The Loop, Feedback Cycle, System Architecture]
+description: "The engine of Hevel's digital brain. A continuous feedback loop connecting Human Creativity (Input) with AI Processing (Antigravity)."
 ---
 
 The **Cybernetic Loop** is the living system I am building to bridge the gap between human creativity and artificial intelligence. It is the engine of **Hevel**.

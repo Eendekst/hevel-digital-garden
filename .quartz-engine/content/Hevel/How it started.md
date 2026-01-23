@@ -13,7 +13,7 @@ In February 2025, I made the best decision of my life: taking the 5-day Google G
 
 Since then, I decided to completely reimagine how I manage my digital environment, starting from my file explorer. This marked the beginning of life for this **Garden** and these **machines**.
 
-Until today, I have strived to transform my computer's storage into a **[[digital-brain]]** with **[[Obsidian]]**. The reflection that pushed me to build my brand this way is based on:
+Until today, I have strived to transform my computer's storage into a **[[digital-brain]]** with [Obsidian](https://obsidian.md/). The reflection that pushed me to build my brand this way is based on:
 
 > **Philippians 4:8** "Finally, brothers and sisters, whatever is **true**, whatever is **noble**, whatever is **right**, whatever is **pure**, whatever is **lovely**, whatever is **admirable**—if anything is **excellent** or **praiseworthy**—think about such things."
 
