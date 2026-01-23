@@ -22,6 +22,10 @@ Get-ChildItem -Path $SourceDir -Exclude ".quartz-engine", ".git", "Deploy-Garden
 # 1. Build Site
 Set-Location $WorkingDir
 Write-Host "Building Quartz..." -ForegroundColor Cyan
+$PublicDir = "$WorkingDir\public"
+if (Test-Path $PublicDir) {
+    Get-ChildItem -Path $PublicDir -Exclude ".git" | Remove-Item -Recurse -Force
+}
 $env:Path = "C:\Program Files\Git\cmd;" + $env:Path
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 npx quartz build

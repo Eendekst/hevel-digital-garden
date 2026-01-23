@@ -28,4 +28,4 @@ We implement a variety of security measures to maintain the safety of your perso
 ## 5. Contact Us
 If you have any questions regarding this privacy policy, you may contact us at:
 **Email:** guillautojason@gmail.com
-**Website:** hevel.io
+**Website:** garden.hevel.ca
