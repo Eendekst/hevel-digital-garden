@@ -1,0 +1,73 @@
+name: Deploy Digital Garden
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          
+      - name: Shadow Patch (Sync Content)
+        run: |
+          # Wipe any stale notes previously committed inside the engine
+          rm -rf quartz-engine/content
+          mkdir -p quartz-engine/content
+          # Copy all files from root to content, excluding quartz-engine .git .github
+          rsync -av --exclude='quartz-engine' --exclude='.git' --exclude='.github' . quartz-engine/content/
+          # Safety filter: remove any .md files without 'publish: true' in frontmatter
+          python3 - <<'PYEOF'
+          import os, re
+          content_dir = "quartz-engine/content"
+          removed = 0
+          for root, dirs, files in os.walk(content_dir):
+              dirs[:] = [d for d in dirs if d not in ['.git', '.github', '.obsidian']]
+              for fname in files:
+                  if not fname.endswith(".md"):
+                      continue
+                  fpath = os.path.join(root, fname)
+                  try:
+                      text = open(fpath, encoding="utf-8", errors="ignore").read(2000)
+                  except:
+                      continue
+                  m = re.search(r'^---(.+?)^---', text, re.DOTALL | re.MULTILINE)
+                  if not m:
+                      continue
+                  front = m.group(1)
+                  if not re.search(r'^\s*publish\s*:\s*true\s*$', front, re.MULTILINE):
+                      os.remove(fpath)
+                      removed += 1
+          print(f"Safety filter: removed {removed} private notes from build")
+          PYEOF
+          if [ -f quartz-engine/content/Home.md ]; then
+            mv quartz-engine/content/Home.md quartz-engine/content/index.md
+          fi
+          
+      - name: Install Dependencies
+        working-directory: quartz-engine
+        run: npm ci
+        
+      - name: Build
+        working-directory: quartz-engine
+        run: npx quartz build
+        
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: quartz-engine/public
+          publish_branch: gh-pages
+          force_orphan: true

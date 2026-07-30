@@ -1,0 +1,18 @@
+# Quartz engine build artifacts & dependencies
+quartz-engine/node_modules
+quartz-engine/public
+quartz-engine/.quartz-cache
+quartz-engine/content
+
+# Temp sync artifacts
+notes_sync_temp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Obsidian local config
+.obsidian
+
+# Deploy scripts (local-only)
+Deploy-Garden.ps1
