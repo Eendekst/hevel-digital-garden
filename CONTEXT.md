@@ -127,8 +127,21 @@ When asked to generate a summary:
 
 ---
 
-## ⚡ Deployment & Safety Constraints
+## ⚡ Deployment & Publishing Architecture
 
-- **UTF-8 Encoding**: PowerShell file operations must explicitly enforce `[System.Text.Encoding]::UTF8`.
+### 1. Primary Publishing Pipeline (`Push-To-Main.ps1` -> GitHub Actions)
+- **Workflow Trigger**: Pushing vault changes to `main` branch on GitHub (`Eendekst/hevel-digital-garden`).
+- **GitHub Actions Execution**:
+  - Automatically triggers the **"Deploy Digital Garden"** workflow ([deploy.yml](file:///c:/Users/Hevel/Lab/Mobile/BRAND/Garden/.github/workflows/deploy.yml)).
+  - Runs the Shadow Patch privacy filter (`publish: true` isolation), compiles Quartz 4.5.2, and deploys the static build directly to the `gh-pages` branch using `peaceiris/actions-gh-pages`.
+  - GitHub Pages automatically runs **"pages-build-deployment"** to serve the updated site on [https://garden.hevel.ca](https://garden.hevel.ca).
+- **Security & Push Protection**: Local PowerShell scripts (`Deploy-Garden.ps1`, `Push-To-Main.ps1`, `*.ps1`) are strictly listed in `.gitignore` so GitHub Secret Scanning / Push Protection never blocks pushes containing local PAT tokens.
+
+### 2. Direct Local Deploy Pipeline (`Deploy-Garden.ps1`)
+- **Use Case**: Direct local emergency deploy or offline preview testing.
+- **Workflow**: Runs local privacy filter (`publish: true`), executes `npx quartz build` inside `quartz-engine/`, and force-pushes `public/` directly to the `gh-pages` branch on GitHub.
+
+### 3. Encoding & Media Safety Constraints
+- **UTF-8 Encoding**: PowerShell file operations must explicitly enforce `[System.Text.Encoding]::UTF8` to preserve accents (e.g., `Haïti`), emojis, and special characters.
 - **Media Asset Audit**: Pre-deployment scripts verify image files exist, while explicitly excluding the background audio file `Ytmp3.gg_YouTube_HITMAN-3-Soundtrack-Berlin-Custom-Mix_Media_91yaJ_mPUyQ_009_128k.mp3`.
-- **Build Verification**: `Deploy-Garden.ps1` runs `npx quartz build` and verifies `public/index.html` before pushing to `gh-pages`.
+
