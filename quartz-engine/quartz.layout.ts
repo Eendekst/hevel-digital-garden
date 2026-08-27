@@ -5,7 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.Telemetry()],
   footer: Component.Footer({
     links: {
       Pinterest: "https://ca.pinterest.com/HevelInsights/",
@@ -28,7 +28,7 @@ export const defaultContentPageLayout: PageLayout = {
         localGraph: {
           drag: true,
           zoom: true,
-          depth: 2, // Deeper for Hero
+          depth: -1, // Shows all published notes across the digital garden
           scale: 1.5, // Larger
           repelForce: 1.2, // Looser
           centerForce: 0.3,
@@ -98,7 +98,7 @@ export const defaultContentPageLayout: PageLayout = {
       localGraph: {
         drag: true,
         zoom: true,
-        depth: 1,
+        depth: 2, // Expanded depth for sidebar graph
         scale: 1.1,
         repelForce: 1, // Phase 5: Loose
         centerForce: 0.3,

@@ -110,7 +110,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     }
 
     if (showTags) {
-      const localTags = details.tags
+      const localTags = (details.tags ?? [])
         .filter((tag) => !removeTags.includes(tag))
         .map((tag) => simplifySlug(("tags/" + tag) as FullSlug))
 
@@ -155,10 +155,16 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     nodes,
     links: links
       .filter((l) => neighbourhood.has(l.source) && neighbourhood.has(l.target))
-      .map((l) => ({
-        source: nodes.find((n) => n.id === l.source)!,
-        target: nodes.find((n) => n.id === l.target)!,
-      })),
+      .map((l) => {
+        const sourceNode = nodes.find((n) => n.id === l.source)
+        const targetNode = nodes.find((n) => n.id === l.target)
+        if (!sourceNode || !targetNode) return null
+        return {
+          source: sourceNode,
+          target: targetNode,
+        }
+      })
+      .filter((l): l is LinkData => l !== null),
   }
 
   let width = graph.offsetWidth
@@ -575,8 +581,22 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   let stopAnimation = false
+  let isIntersecting = true
+
+  const observer = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      const wasIntersecting = isIntersecting
+      isIntersecting = entry.isIntersecting
+      if (!wasIntersecting && isIntersecting && !stopAnimation) {
+        requestAnimationFrame(animate)
+      }
+    }
+  }, { threshold: 0.01 })
+
+  observer.observe(graph)
+
   function animate(time: number) {
-    if (stopAnimation) return
+    if (stopAnimation || !isIntersecting) return
     for (const n of nodeRenderData) {
       const { x, y } = n.simulationData
       if (!x || !y) continue
@@ -603,6 +623,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   requestAnimationFrame(animate)
   return () => {
     stopAnimation = true
+    observer.disconnect()
     app.destroy()
   }
 }

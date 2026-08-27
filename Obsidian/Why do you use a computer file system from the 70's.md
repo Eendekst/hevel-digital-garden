@@ -2,9 +2,9 @@
 title: Why do you use a computer file system from the 70's
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: The traditional computer file system is outdated
+description: "Why hierarchical folder systems are obsolete: how Obsidian graph views and bi-directional linking liberate human thought from 1970s folders."
 tags:
   - Technology
 aliases:

@@ -2,9 +2,9 @@
 title: Premature Optimization
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: Why you must complete your idea before you optimize it.
+description: "Why premature optimization is the root of wasted momentum: build, test, and ship the core loop before refining peripheral details."
 tags:
   - administration
   - Data

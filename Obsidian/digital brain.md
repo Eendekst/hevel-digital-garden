@@ -2,9 +2,9 @@
 title: Digital Brain
 publish: true
 created: 2026-04-09
-modified: 2026-06-23
+modified: 2026-08-27
 author: Jason
-description: Defining what a digital brain is
+description: "Designing a local-first digital brain in Obsidian: turning your personal computer into an active research laboratory and knowledge asset."
 tags:
   - obsidian
 aliases:

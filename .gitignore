@@ -16,3 +16,5 @@ Thumbs.db
 
 # Deploy scripts (local-only)
 Deploy-Garden.ps1
+Push-To-Main.ps1
+*.ps1

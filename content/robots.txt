@@ -1,0 +1,26 @@
+# robots.txt for garden.hevel.ca
+# Allows search engine indexers and AI answer engines full access to public notes and /llms.txt
+
+User-agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /sitemap.xml
+
+# Explicit AI Crawlers Permitted
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Sitemap
+Sitemap: https://garden.hevel.ca/sitemap.xml

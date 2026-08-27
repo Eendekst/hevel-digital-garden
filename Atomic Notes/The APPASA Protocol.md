@@ -2,9 +2,9 @@
 title: The APPASA Protocol
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: "Google's data analysis protocol: Ask Prepare Process Analyze Share Act"
+description: "Google's data analysis lifecycle (Ask, Prepare, Process, Analyze, Share, Act) mapped to sovereign research and personal knowledge management."
 tags:
   - Data
 aliases: []

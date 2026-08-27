@@ -2,9 +2,9 @@
 title: The Synthesizer
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: Target audience
+description: "Profile of The Synthesizer: cross-disciplinary architects who merge technology, faith, and strategy to build sovereign digital estates."
 tags: []
 aliases: []
 cssclasses: []

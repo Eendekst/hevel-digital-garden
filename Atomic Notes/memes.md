@@ -2,9 +2,9 @@
 title: memes
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: The original "meme" definition
+description: "The historical and cultural definition of memes as units of cultural transmission, cognitive replication, and collective human memory."
 tags:
   - Technology
 aliases:

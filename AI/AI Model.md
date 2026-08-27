@@ -2,9 +2,9 @@
 title: AI Model
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: Simple definition of an AI model
+description: "A foundational breakdown of AI models, neural weights, and why model capability is supercharged when paired with an agentic context harness."
 tags:
   - AI
 aliases: []

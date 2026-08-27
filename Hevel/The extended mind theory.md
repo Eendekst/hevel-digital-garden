@@ -2,9 +2,9 @@
 title: The extended mind theory
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: Defining the extended mind theory through the lens of an Obsidian user
+description: "Applying Clark & Chalmers' Extended Mind Thesis to personal computing: transforming Obsidian vaults into externalized biological memory."
 tags:
   - Technology
   - biology

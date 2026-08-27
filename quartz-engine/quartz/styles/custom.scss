@@ -137,3 +137,25 @@ a {
   border: 1px solid var(--glass-border) !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
 }
+
+// Mobile Performance Optimizations
+@media (max-width: 800px) {
+  // Disable real-time GPU backdrop-filter blurs on mobile to eliminate touch scroll lag & frame drops
+  .sidebar,
+  .callout,
+  .search-container,
+  .search,
+  #search-bar,
+  .explorer-container,
+  .explorer,
+  .popover {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  // Smooth mobile scrolling acceleration
+  body, #quartz-root, .page, #quartz-body {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+

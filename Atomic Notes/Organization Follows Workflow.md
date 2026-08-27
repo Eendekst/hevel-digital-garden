@@ -2,9 +2,9 @@
 title: Organization Follows Workflow
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: Don't predict, test.
+description: "Empirical organization theory: never predict folder hierarchies in advance; allow structure and classification to emerge from actual workflow."
 tags:
   - administration
   - AI

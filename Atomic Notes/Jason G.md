@@ -2,9 +2,9 @@
 title: Jason G
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: Presenting myself, the human creator, founder of Hevel
+description: "Meet Jason G., founder of Hevel: Sovereign Technology Architect, local-first systems designer, and biblical researcher based in Montreal."
 tags:
   - Source
   - Orchestrator

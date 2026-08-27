@@ -2,9 +2,9 @@
 title: Treasures in Darkness
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: Isaiah 45:3
+description: "Spiritual reflection on Isaiah 45:3: uncovering hidden wisdom, divine resilience, and intellectual treasures forged through trials."
 tags:
   - Bible
   - Isaiah

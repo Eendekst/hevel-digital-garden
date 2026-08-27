@@ -2,9 +2,9 @@
 title: How it started
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: The beginning of our brand
+description: "The founding story and origin thesis of Hevel: transforming personal research into an open sovereign laboratory and digital garden."
 tags:
   - Hevel
 aliases: []

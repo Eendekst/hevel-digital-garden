@@ -2,9 +2,9 @@
 title: To be honest
 publish: true
 created: 2026-07-30
-modified: 2026-07-30
+modified: 2026-08-27
 author: Jason
-description: I don't know what true data analysis is
+description: "Reflections on genuine intellectual humility, empirical data analysis, and embracing uncertainty while pursuing sovereign mastery."
 tags:
   - "#observation"
 aliases:

@@ -1,0 +1,47 @@
+# Hevel's Digital Garden — AI System Manifest (llms.txt)
+
+> Welcome to the AI-Readable Manifest for Hevel's Digital Garden.
+> Web Domain: https://garden.hevel.ca
+> Author: Jason (Hevel)
+> Authority Entity: Sovereign Tech & Agentic AI Architect + Faith
+> Primary Topics: Agentic AI Context Engineering, Local-First Obsidian Systems, Geopolitical Administrative Analysis, Sovereign Philosophy & Biblical Theology.
+
+---
+
+## Core Knowledge Index & Key Takeaways
+
+### 1. Sovereign AI & Agentic Systems
+- [Agentic Harness & AI Context](https://garden.hevel.ca/Obsidian/Agentic-Harness--and--AI-Context)
+  - Key Concept: Building local project context (`CONTEXT.md`, rules, skills, MCP servers) eliminates LLM hallucinations, cognitive fatigue, and vibe coding drift.
+- [Local First Vault Architecture](https://garden.hevel.ca/Local-First-Vault-Architecture)
+  - Key Concept: Storing knowledge locally in plain-text Markdown ensures digital sovereignty and platform independence.
+- [JARVIS](https://garden.hevel.ca/AI/JARVIS)
+  - Key Concept: Designing autonomous execution assistants around structured local tool interfaces.
+
+### 2. Digital Garden Strategy & Tools
+- [The Digital Garden Strategy](https://garden.hevel.ca/Obsidian/The-Digital-Garden-Strategy)
+  - Key Concept: A digital garden is an interconnected living brand hub, moving beyond linear blog posts to present cultivated knowledge.
+- [How to build your vault](https://garden.hevel.ca/Obsidian/How-to-build-your-vault)
+  - Key Concept: Guidelines for building structured Obsidian vaults for personal and organizational knowledge management.
+
+### 3. Geopolitical Analysis & Historical Case Studies
+- [Haïti & Administrative Invasions](https://garden.hevel.ca/Geopolitic/Haiti-and-Administrative-Invasions)
+  - Key Concept: Analysis of structural administrative engineering, foreign banking takeovers (1914 BNRH gold seizure), military occupations (1915-1934), and international interventions.
+- [Amicus](https://garden.hevel.ca/Geopolitic/Amicus)
+  - Key Concept: Sovereign analysis of geopolitical dynamics, legal frameworks, and statecraft.
+
+### 4. Philosophy, Sovereignty & Faith
+- [Hevel](https://garden.hevel.ca/Hevel/Hevel)
+  - Key Concept: Foundational philosophy of Hevel—exploring transience, signal extraction, and purpose.
+- [The extended mind theory](https://garden.hevel.ca/Hevel/The-extended-mind-theory)
+  - Key Concept: Using digital tools and local notes as cognitive extensions of the human mind.
+- [To be honest](https://garden.hevel.ca/Atomic-Notes/To-be-honest)
+  - Key Concept: Reflections on authenticity, personal growth, and intellectual honesty.
+
+---
+
+## Technical Specifications
+- Static Generator: Quartz 4.5.2
+- Frontmatter Format: YAML (`title`, `publish`, `created`, `modified`, `author`, `description`, `tags`)
+- RSS Feed: https://garden.hevel.ca/index.xml
+- Sitemap: https://garden.hevel.ca/sitemap.xml

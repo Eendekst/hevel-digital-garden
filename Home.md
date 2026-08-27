@@ -2,10 +2,15 @@
 title: Home
 publish: true
 created: 2026-07-10
-modified: 2026-07-10
+modified: 2026-08-27
 author: Jason
-description: Hevel's digital garden homepage
-tags: []
+description: Sovereign Technology & Agentic AI Architect Lab, Faith, Geopolitics, and Knowledge Garden by Jason G.
+tags:
+  - AI
+  - Technology
+  - Faith
+  - Geopolitics
+  - Obsidian
 aliases:
   - Here
   - landing page
@@ -98,7 +103,7 @@ Augmented Intelligence is the simple task of filling these properties manually. 
 By adding classification to your notes you create a cognitive layer that is as easy to understand to human as it is for any computer system. For AI enthusiasts, it also is the most token efficient way to inject context and instructions to prompts and documents.
 
 ## Why is this important ?
-I don't have to explain this to administrators. But, [[Why do you use a computer file system from the 70's]]
+I don't have to explain this to administrators. But, [[Why do you use a computer file system from the 70's]]?
 
 For creators, developers, writers, searchers and any other type of knowledge worker, pairing augmented and artificial intelligence will supercharge your digital environment. 
 
@@ -111,7 +116,7 @@ Imagine;
 * Augmented search and organization 
 * Become a [[context engineers|context engineer]]; the most in demand skill ever
 
-From an existential standpoint, augmented intelligence is a shield against [[psyops and propaganda]]. **Building context for yourself keeps you from relying on another's vision.**
+From an existential standpoint, augmented intelligence is a shield against [[BRAND/Garden/Geopolitic/psyops and propaganda]]. **Building context for yourself keeps you from relying on another's vision.**
 
 Big data companies such as Google, Capital One and Amazon are all using Obsidian for this very end. You can do it too if you start organizing your digital life.
 

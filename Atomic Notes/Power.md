@@ -2,9 +2,9 @@
 title: Power
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: What is power
+description: "The operational definition of power: the capacity to translate intent into reality through disciplined leverage and sovereign tools."
 tags:
   - Philosophy
 aliases: []

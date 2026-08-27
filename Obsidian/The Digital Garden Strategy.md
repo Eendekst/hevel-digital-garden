@@ -2,18 +2,28 @@
 title: The Digital Garden Strategy
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: Why build a digital garden
+description: The strategic framework for building a living, bi-directionally linked digital garden with Obsidian and Markdown as an interconnected brand hub.
 tags:
   - Technology
   - obsidian
+  - Strategy
+  - Digital-Garden
 aliases:
   - Digital garden
+  - Digital Garden Framework
 cssclasses: []
 cover: "[[Green-and-water-droplets.gif]]"
 ---
+
+> [!KEY TAKEAWAY]
+> A **Digital Garden** replaces rigid chronological blogs with an interconnected, living web of ideas. By publishing notes directly from a local Obsidian vault via open Markdown standards, you cultivate enduring brand authority and non-linear discovery.
+
 ## The Digital Garden: Your Brand's Central Hub
+
+> [!KEY CONCEPT] Digital Garden
+> A public hypertext notebook that evolves continuously, organizing ideas into non-linear, bi-directionally linked networks rather than timestamped chronological feeds.
 
 A Digital Garden is a living, breathing website—a strategic asset where every piece of content, product, and idea is professionally cultivated and linked. It serves not just as a content library, but as a primary online signal and marketplace.
  * Beyond the Blog: Unlike a static corporate blog, your Digital Garden is interconnected. It allows clients and customers to navigate your expertise in a non-linear way, moving naturally from a free guide to a case study to a paid offering.
@@ -74,5 +84,7 @@ With your system set up, focus on leveraging the garden to meet your business go
 What is the first piece of key content you plan to connect to a paid offering?
 
 *I am completely managing my digital garden with my Google Pixel 10 Pro.*
+
+Visit https://vaults.obsidian-community.com/ to explore other digital gardens!
 
 

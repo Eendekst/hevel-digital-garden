@@ -2,9 +2,9 @@
 title: Big Picture View
 publish: true
 created: 2026-04-09
-modified: 2026-04-09
+modified: 2026-08-27
 author: Jason
-description: Hevel's definition of big picture view
+description: "Defining the big-picture view: elevating above isolated tasks to synthesize macro strategy, systemic leverage, and long-term trajectory."
 tags:
   - Philosophy
   - Strategy

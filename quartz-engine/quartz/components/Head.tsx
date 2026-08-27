@@ -36,6 +36,152 @@ export default (() => {
     )
     const ogImageDefaultPath = `https://${cfg.baseUrl}/static/og-image.png`
 
+    // Construct dynamic JSON-LD Structured Data
+    const isIndex = fileData.slug === "index"
+    const is404 = fileData.slug === "404"
+    const socialLinks = [
+      "https://www.youtube.com/@HevelProd",
+      "https://www.instagram.com/hevelshow/",
+      "https://www.tiktok.com/@hevelstudio",
+      "https://ca.pinterest.com/HevelInsights/",
+    ]
+
+    const jsonLdGraph: any[] = []
+
+    if (isIndex) {
+      jsonLdGraph.push(
+        {
+          "@type": "WebSite",
+          "@id": `https://${cfg.baseUrl}/#website`,
+          url: `https://${cfg.baseUrl}/`,
+          name: "Hevel Digital Garden",
+          description:
+            description ||
+            "Sovereign Technology & Agentic AI Architect Lab, Faith, Geopolitics, and Knowledge Garden.",
+          inLanguage: "en-US",
+          publisher: {
+            "@type": "Organization",
+            "@id": `https://${cfg.baseUrl}/#organization`,
+            name: "Hevel Digital Garden",
+            url: `https://${cfg.baseUrl}/`,
+            logo: `https://${cfg.baseUrl}/static/icon.png`,
+            sameAs: socialLinks,
+          },
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": `https://${cfg.baseUrl}/#profile`,
+          url: `https://${cfg.baseUrl}/`,
+          name: "Jason G. — Hevel Digital Garden",
+          mainEntity: {
+            "@type": "Person",
+            "@id": `https://${cfg.baseUrl}/#author`,
+            name: "Jason G.",
+            jobTitle: "Sovereign Tech & Agentic AI Architect",
+            worksFor: {
+              "@id": `https://${cfg.baseUrl}/#organization`,
+            },
+            sameAs: socialLinks,
+          },
+        },
+      )
+    } else if (!is404) {
+      const tags = (fileData.frontmatter?.tags as any) ?? []
+      const tagList = Array.isArray(tags) ? tags : [tags]
+      const isTech =
+        fileData.slug?.startsWith("AI/") ||
+        fileData.slug?.startsWith("Obsidian/") ||
+        tagList.some((t: string) =>
+          ["AI", "Technology", "Obsidian", "Data", "Data-Science", "Agentic"].includes(t),
+        )
+
+      const articleType = isTech ? "TechArticle" : "Article"
+      const authorName = (fileData.frontmatter?.author as string) || "Jason G."
+      const canonicalPageUrl = socialUrl
+
+      const datePublished = fileData.frontmatter?.created
+        ? new Date(fileData.frontmatter.created as string).toISOString()
+        : fileData.dates?.created
+          ? fileData.dates.created.toISOString()
+          : undefined
+
+      const dateModified = fileData.frontmatter?.modified
+        ? new Date(fileData.frontmatter.modified as string).toISOString()
+        : fileData.dates?.modified
+          ? fileData.dates.modified.toISOString()
+          : datePublished
+
+      const articleSchema: Record<string, any> = {
+        "@type": articleType,
+        "@id": `${canonicalPageUrl}#article`,
+        isPartOf: {
+          "@type": "WebSite",
+          "@id": `https://${cfg.baseUrl}/#website`,
+          name: "Hevel Digital Garden",
+          url: `https://${cfg.baseUrl}/`,
+        },
+        headline: fileData.frontmatter?.title ?? title,
+        description: description,
+        mainEntityOfPage: canonicalPageUrl,
+        inLanguage: "en-US",
+        author: {
+          "@type": "Person",
+          "@id": `https://${cfg.baseUrl}/#author`,
+          name: authorName,
+          url: `https://${cfg.baseUrl}/`,
+          sameAs: socialLinks,
+        },
+        publisher: {
+          "@type": "Organization",
+          "@id": `https://${cfg.baseUrl}/#organization`,
+          name: "Hevel Digital Garden",
+          url: `https://${cfg.baseUrl}/`,
+          logo: `https://${cfg.baseUrl}/static/icon.png`,
+          sameAs: socialLinks,
+        },
+      }
+
+      if (datePublished) articleSchema.datePublished = datePublished
+      if (dateModified) articleSchema.dateModified = dateModified
+      if (tagList.length > 0) articleSchema.keywords = tagList.join(", ")
+
+      jsonLdGraph.push(articleSchema)
+
+      if (fileData.slug && fileData.slug.includes("/")) {
+        const segments = fileData.slug.split("/")
+        const breadcrumbItems = [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: `https://${cfg.baseUrl}/`,
+          },
+        ]
+        let currPath = `https://${cfg.baseUrl}`
+        segments.forEach((seg, idx) => {
+          currPath += `/${seg}`
+          breadcrumbItems.push({
+            "@type": "ListItem",
+            position: idx + 2,
+            name: decodeURIComponent(seg),
+            item: currPath,
+          })
+        })
+        jsonLdGraph.push({
+          "@type": "BreadcrumbList",
+          itemListElement: breadcrumbItems,
+        })
+      }
+    }
+
+    const jsonLdPayload =
+      jsonLdGraph.length > 0
+        ? {
+            "@context": "https://schema.org",
+            "@graph": jsonLdGraph,
+          }
+        : null
+
     return (
       <head>
         <title>{title}</title>
@@ -85,6 +231,13 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+
+        {jsonLdPayload && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdPayload) }}
+          />
+        )}
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js

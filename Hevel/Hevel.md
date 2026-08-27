@@ -2,9 +2,9 @@
 title: Hevel
 publish: true
 created: 2026-07-10
-modified: 2026-07-10
+modified: 2026-08-27
 author: Jason
-description: Brand definition from the brand's creator
+description: "The core philosophy of Hevel: exploring vapor, vanity, and enduring truth at the intersection of sovereign technology and biblical wisdom."
 tags:
   - Hevel
 aliases: []

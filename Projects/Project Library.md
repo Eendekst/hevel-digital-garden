@@ -2,9 +2,9 @@
 title: AI apps
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: ""
+description: "The complete project portfolio and active laboratory builds powering the Hevel ecosystem, client applications, and AI research tools."
 tags: []
 aliases:
   - AI apps

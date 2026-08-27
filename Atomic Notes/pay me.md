@@ -2,9 +2,9 @@
 title: pay me
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: Should you hire a context engineer?
+description: "Engage Jason G. and Hevel for bespoke agentic harnesses, local AI context engineering, and sovereign knowledge vault architecture."
 tags: []
 aliases: []
 cssclasses: []

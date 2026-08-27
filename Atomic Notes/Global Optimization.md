@@ -2,9 +2,9 @@
 title: Global Optimization
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: How to optimize a system
+description: "Principles of global system optimization: why optimizing local sub-components in isolation often degrades the total systemic outcome."
 tags:
   - Data
 aliases: []

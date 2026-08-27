@@ -2,9 +2,9 @@
 title: Obsidian note
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: Defining what an obsidian.md note is
+description: "The technical anatomy of an Obsidian note: plain-text Markdown, YAML context properties, and bi-directional wikilinks powering local AI."
 tags:
   - Technology
   - obsidian

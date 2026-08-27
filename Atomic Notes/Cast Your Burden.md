@@ -2,9 +2,9 @@
 title: Cast Your Burden
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: Psalm 55:22
+description: "Meditations on Psalm 55:22: releasing anxiety, trusting divine sovereignty, and grounding personal discipline in spiritual conviction."
 tags:
   - Bible
   - psalm

@@ -2,9 +2,9 @@
 title: Puzzle Pieces of Potential
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: ""
+description: "Recognizing fragmented capabilities and ideas as modular puzzle pieces that assemble into sovereign creative and technical breakthroughs."
 tags: []
 aliases: []
 cssclasses: []

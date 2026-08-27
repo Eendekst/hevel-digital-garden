@@ -2,9 +2,9 @@
 title: Do you trust me bro
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: Presenting the human behind the brand (me, the writer)
+description: "A transparent look at the human behind Hevel: sovereign technology, spiritual conviction, and building high-trust digital relationships."
 tags:
   - Jason
 aliases: []

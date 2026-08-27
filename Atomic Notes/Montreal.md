@@ -2,9 +2,9 @@
 title: Montreal
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: My physical coordinates
+description: "Physical coordinates and intellectual ecosystem of Montreal: a multilingual cultural crossroads cultivating synthesizer intellects."
 tags:
   - "#Location"
 aliases:

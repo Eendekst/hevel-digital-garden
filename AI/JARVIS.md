@@ -2,9 +2,9 @@
 title: JARVIS
 publish: true
 created: 2026-04-09
-modified: 2026-04-09
+modified: 2026-08-27
 author: Jason
-description: What is a JARVIS system
+description: "Conceptualizing a personal JARVIS architecture: local-first agentic assistants grounded in personal knowledge bases and autonomous tool execution."
 tags:
   - Vision
   - Future

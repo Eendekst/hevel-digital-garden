@@ -2,9 +2,9 @@
 title: YAML
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: Defining YAML AIN'T MARKUP LANGUAGE
+description: "Mastering YAML frontmatter in Obsidian: token-efficient metadata schemas, AI context injection, and structured knowledge management."
 tags:
   - Technology
   - administration

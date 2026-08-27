@@ -2,9 +2,9 @@
 title: The Cycle of Competence
 publish: true
 created: 2026-07-11
-modified: 2026-07-11
+modified: 2026-08-27
 author: Jason
-description: How to be competent
+description: "The progression from unconscious incompetence to mastery: how rigorous feedback loops and deliberate practice forge sovereign capability."
 tags:
   - Learning
 aliases: []
