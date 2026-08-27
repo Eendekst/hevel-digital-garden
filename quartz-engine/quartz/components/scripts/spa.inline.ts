@@ -154,6 +154,14 @@ window.spaNavigate = navigate
 function createRouter() {
   if (typeof window !== "undefined") {
     window.addEventListener("click", async (event) => {
+      const target = event.target as HTMLElement
+      const a = target?.closest("a")
+      if (a && a.href && !isLocalUrl(a.href)) {
+        a.target = "_blank"
+        a.rel = "noopener noreferrer"
+        return
+      }
+
       const { url } = getOpts(event) ?? {}
       // dont hijack behaviour, just let browser act normally
       if (!url || event.ctrlKey || event.metaKey) return
