@@ -62,9 +62,17 @@ jobs:
         
       - name: Build
         working-directory: quartz-engine
-        run: npx quartz build
+        run: |
+          npx quartz build
+          if [ -f ../llms.txt ]; then
+            cp ../llms.txt public/llms.txt
+          fi
+          if [ -f ../CNAME ]; then
+            cp ../CNAME public/CNAME
+          fi
         
       - name: Deploy
+
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
