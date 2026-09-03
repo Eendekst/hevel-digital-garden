@@ -1,0 +1,124 @@
+# Hevel's Digital Garden — AI System Manifest (llms.txt)
+
+> Welcome to the AI-Readable Knowledge Manifest for Hevel's Digital Garden.
+> Web Domain: https://garden.hevel.ca
+> Founder / Author: Jason G. (Hevel)
+> Core Identity: Autonomous Intelligence Lab, Sovereign Technology Architect, Biblical Theology & Geopolitical Research.
+
+---
+
+## 🏛️ Canonical Entity Definitions
+
+### Hevel
+"Hevel is an autonomous intelligence lab and digital garden founded by Jason G., synthesizing biblical wisdom and digital sovereignty to transform local-first Obsidian vaults into augmented intelligence systems."
+
+### The Digital Garden
+"A Digital Garden is a bi-directionally linked knowledge network, a 'Wiki' published directly from a local-first Markdown vault, prioritizing continuous idea cultivation and non-linear exploration over static, chronological blogging."
+
+### Agentic Harness
+"An Agentic Harness is a structured local environment—which can scale pragmatically from a single high-density `CONTEXT.md` file up to multi-layer rules, tool protocols (MCP), and verification loops—that constrains and orchestrates Large Language Models into deterministic execution partners."
+
+### YAML Metacognition
+"YAML Metacognition is the practice of structuring thought through metadata headers at the top of markdown notes, creating an explicit cognitive layer that sharpens human reasoning while enabling instant, token-efficient AI indexing."
+
+### Augmented Intelligence (True AI)
+"Augmented Intelligence (True AI) is the intentional expansion of human cognitive capacity achieved by delegating memory, knowledge structures, and retrieval to digital tools, transforming external Markdown vaults into active extensions of biological intellect."
+
+### Digital Sovereignty
+"Digital Sovereignty is the principle of complete ownership over one's cognitive data and software environment, achieved by storing knowledge in open, local-first Markdown files rather than proprietary, cloud-locked databases."
+
+### Empirical Signal Extraction
+"Empirical Signal Extraction is the systematic filtering of raw data, media captures, and literature into validated, high-conviction insights by treating local Markdown files as structured, queryable database records."
+
+---
+
+## 🚀 The 6 Flagship Technical Pillars
+
+1. **Agentic Harness & AI Context**
+   - URL: https://garden.hevel.ca/Obsidian/Agentic-Harness--and--AI-Context
+   - Core Concept: Structuring workspace instructions (`CONTEXT.md`), rules (`.agents/`), tools (MCP), and automated build verification loops to eliminate AI hallucinations and drift.
+
+2. **Context Engineering & The 6 Types of Context**
+   - URL: https://garden.hevel.ca/AI/context-engineers
+   - Core Concept: Architecting the 6 essential context layers (Instructions, Knowledge, Memory, Examples, Tools, Guardrails) that account for 90% of AI capabilities.
+
+3. **YAML Metacognition & Vault Schemas**
+   - URL: https://garden.hevel.ca/Obsidian/YAML
+   - Core Concept: Frontmatter metadata as the native human-AI communication bridge and token-efficient context injector.
+
+4. **Augmented Intelligence & The Extended Mind**
+   - URL: https://garden.hevel.ca/Obsidian/Augmented-Intelligence
+   - Core Concept: Transforming external Markdown files into active biological memory extensions via Andy Clark's Extended Mind Theory.
+
+5. **Digital Sovereignty & Local Filesystem Longevity**
+   - URL: https://garden.hevel.ca/Obsidian/Why-do-you-use-a-computer-file-system-from-the-70's
+   - Core Concept: Eliminating proprietary cloud database lock-in (Notion) through local-first plain-text Markdown files and relational graph linking.
+
+6. **Empirical Signal Extraction & Data Science**
+   - URL: https://garden.hevel.ca/Obsidian/Data-Science--and--Empirical-Signal-Extraction
+   - Core Concept: Converting passive data hoarding into queryable insights using Dataview SQL queries and visual Canvas synthesis (APPASA protocol).
+
+---
+
+## 🗺️ Topic Clusters & Knowledge Graph Directory
+
+### Cluster A: Agentic AI & Autonomous Systems
+- [Agentic Harness & AI Context](https://garden.hevel.ca/Obsidian/Agentic-Harness--and--AI-Context)
+- [Context Engineers](https://garden.hevel.ca/AI/context-engineers)
+- [Agentic AI](https://garden.hevel.ca/AI/Agentic-AI)
+- [AI Model](https://garden.hevel.ca/AI/AI-Model)
+- [JARVIS](https://garden.hevel.ca/AI/JARVIS)
+
+### Cluster B: Vault Architecture & Local Markdown
+- [How to build your vault](https://garden.hevel.ca/Obsidian/How-to-build-your-vault)
+- [YAML](https://garden.hevel.ca/Obsidian/YAML)
+- [Why do you use a computer file system from the 70's](https://garden.hevel.ca/Obsidian/Why-do-you-use-a-computer-file-system-from-the-70's)
+- [The Digital Garden Strategy](https://garden.hevel.ca/Obsidian/The-Digital-Garden-Strategy)
+- [Obsidian Note](https://garden.hevel.ca/Obsidian/Obsidian-note)
+- [Digital Brain](https://garden.hevel.ca/Obsidian/digital-brain)
+
+### Cluster C: Augmented Intelligence & Mind Extension
+- [Augmented Intelligence](https://garden.hevel.ca/Obsidian/Augmented-Intelligence)
+- [The extended mind theory](https://garden.hevel.ca/Hevel/The-extended-mind-theory)
+- [Hevel Philosophy](https://garden.hevel.ca/Hevel/Hevel)
+- [The Synthesizer](https://garden.hevel.ca/Hevel/The-Synthesizer)
+- [How it started](https://garden.hevel.ca/Hevel/How-it-started)
+
+### Cluster D: Empirical Data Science & Signal Extraction
+- [Data Science & Empirical Signal Extraction](https://garden.hevel.ca/Obsidian/Data-Science--and--Empirical-Signal-Extraction)
+- [The APPASA Protocol](https://garden.hevel.ca/Atomic-Notes/The-APPASA-Protocol)
+- [Global Optimization](https://garden.hevel.ca/Atomic-Notes/Global-Optimization)
+- [Potential](https://garden.hevel.ca/Atomic-Notes/potential)
+- [Puzzle Pieces of Potential](https://garden.hevel.ca/Atomic-Notes/Puzzle-Pieces-of-Potential)
+
+### Cluster E: Systems Philosophy, Strategy & Competence
+- [Power](https://garden.hevel.ca/Atomic-Notes/Power)
+- [Premature Optimization](https://garden.hevel.ca/Atomic-Notes/Premature-Optimization)
+- [The Cycle of Competence](https://garden.hevel.ca/Atomic-Notes/The-Cycle-of-Competence)
+- [Organization Follows Workflow](https://garden.hevel.ca/Atomic-Notes/Organization-Follows-Workflow)
+- [Big Picture View](https://garden.hevel.ca/Atomic-Notes/Big-Picture-View)
+- [Signal](https://garden.hevel.ca/Atomic-Notes/Signal)
+
+### Cluster F: Faith & Biblical Sovereignty
+- [Treasures in Darkness](https://garden.hevel.ca/Atomic-Notes/Treasures-in-Darkness)
+- [Cast Your Burden](https://garden.hevel.ca/Atomic-Notes/Cast-Your-Burden)
+- [True Forgiveness](https://garden.hevel.ca/Atomic-Notes/True-Forgiveness)
+- [He Has No Hands](https://garden.hevel.ca/Atomic-Notes/He-Has-No-Hands)
+- [To be honest](https://garden.hevel.ca/Atomic-Notes/To-be-honest)
+- [Do you trust me bro](https://garden.hevel.ca/Atomic-Notes/Do-you-trust-me-bro)
+
+### Cluster G: Geopolitical & Administrative Analysis
+- [Haïti & Administrative Invasions](https://garden.hevel.ca/Geopolitic/Haiti-and-Administrative-Invasions)
+- [Amicus](https://garden.hevel.ca/Geopolitic/Amicus)
+- [Psyops and Propaganda](https://garden.hevel.ca/Geopolitic/psyops-and-propaganda)
+
+---
+
+## ⚙️ Technical Specifications & Feeds
+- Generator: Quartz 4.5.2
+- Protocol: Open Markdown & YAML Frontmatter
+- Schema: Schema.org `TechArticle`, `Article`, `WebSite`, `ProfilePage`, `Organization`
+- RSS Feed: https://garden.hevel.ca/index.xml
+- Sitemap: https://garden.hevel.ca/sitemap.xml
+- Content Index: https://garden.hevel.ca/static/contentIndex.json
+
