@@ -15,8 +15,8 @@ cover: "[[Black-man-dressed-in-white-on-mountain-cliff.jpg]]"
 is home to multiple projects:
 1. This website
 2. Our brand's commercial website; https://hevel.ca
-3. Our brand's Herbalife affiliate website: https://herbalife.hevel.ca
-4. A Calerielife brand partner platform: https://caleriemax.vercel.app/
+3. Our brand's Herbalife affiliate website: https://nutrition.hevel.ca
+4. A Calerielife brand partner platform: https://caleriemax.ca
 
 Internally, I develop tools for financial pdf parsers and translators, tailored content creation machines.
 

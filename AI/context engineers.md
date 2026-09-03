@@ -13,21 +13,63 @@ aliases:
 cssclasses: []
 cover: "[[Free-Ghost.jpg]]"
 ---
-# Context engineers are [[Agentic AI]] designers and system orchestrators
+
+# Context Engineers: The System Orchestrators of Agentic AI
 ___
-Instead of writing code, they write [[markdown notes]] to harness an [[AI Model]]. 
 
+> [!KEY TAKEAWAY]
+> A **Context Engineer** is a software architect who designs the external cognitive environment—instructions, workspace memory, tool protocols, and guardrails—surrounding an AI model. Rather than writing raw procedural code, context engineers structure deterministic Markdown files to orchestrate autonomous Large Language Models.
 
-## An agentic harness is
-A structure of markdown notes used to construct the AI's 6 types of context;
-1. **Instructions:** Defining the agent's core roles, goals, and boundaries.
-2. **Knowledge:** Connecting relevant domain-specific data, architectural diagrams, and retrieved documents.
-3. **Memory:** Managing short-term session logs (what just happened) and long-term persistent state (the project itself).
-4. **Examples:** Providing few-shot behavioral demonstrations and codebase reference patterns.
-5. **Tools:** Defining the APIs, scripts, skills and external services the agent is allowed to invoke.
-6. **Guardrails:** Enforcing constraints, formatting rules, and safety validations.
+## What is a Context Engineer?
 
-This system accounts for 90% of your AI capabilities and intelligence. The remaining 10% comes from the model you choose to place in your harness.
+**A Context Engineer is an agentic systems designer who constructs the operational environment that constrains and directs AI models.** As foundation models reach performance equilibrium, the primary bottleneck in software engineering is no longer raw model intelligence—it is the quality, structure, and precision of the local context provided to the model.
 
-You can start learning for free by organizing your digital assets in [Obsidian](https://obsidian.md/).
+> "Context accounts for 90% of your AI capabilities and intelligence; the remaining 10% comes from the model you choose to place in your harness."
 
+---
+
+## The 6 Types of AI Context
+
+In an [[Obsidian/Agentic Harness & AI Context|Agentic Harness]], a context engineer structures six distinct layers of information:
+
+| Context Layer | Primary Function | Practical Implementation in Markdown |
+| :--- | :--- | :--- |
+| **1. Instructions** | Defining core roles, goals, and execution persona | System prompts and `CONTEXT.md` high-level goals |
+| **2. Knowledge** | Connecting domain-specific data and schemas | Architectural diagrams, design tokens, and API docs |
+| **3. Memory** | Managing session state and long-term project history | Session transcript logs and local `.md` project state |
+| **4. Examples** | Providing few-shot behavioral demonstrations | Gold-standard code snippets and testing patterns |
+| **5. Tools** | Equipping the agent with executable capabilities | Model Context Protocol (MCP) servers and shell scripts |
+| **6. Guardrails** | Enforcing non-negotiable boundaries and rules | `.agents/rules.md` and automated build verifications |
+
+---
+
+## Prompt Engineering vs. Context Engineering
+
+| Dimension | Prompt Engineering | Context Engineering |
+| :--- | :--- | :--- |
+| **Scope** | Single conversational query or prompt string | Entire workspace filesystem and tool environment |
+| **Persistence** | Ephemeral (resets every session) | Deterministic (persists in local Markdown files) |
+| **Execution Medium** | Cloud chat interfaces | Local IDEs (Google Antigravity, Cursor) & MCP servers |
+| **Primary Skill** | Natural language phrasing & trickery | Information architecture, schema design, and rule scoping |
+| **Scalability** | Low (manual re-prompting required) | High (automated workspace indexing) |
+
+You can start learning context engineering for free by organizing your digital assets and documentation in [Obsidian](https://obsidian.md/).
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
+
+### Why is Context Engineering replacing Prompt Engineering?
+**Because Large Language Models are stateless engines.** Crafting clever one-off prompts cannot scale complex software systems. Context engineering creates persistent, version-controlled workspace rules and tool registries that ground the AI automatically on every invocation.
+
+### How do I get started as a Context Engineer?
+**Start by creating a single `CONTEXT.md` file in your project repository.** Define your tech stack, project goals, non-negotiable boundaries, and key file paths. Point your AI IDE (such as Google Antigravity) to this file before requesting code generation.
+
+---
+
+### 🔗 Related Notes & Core Concepts
+- [[Obsidian/Agentic Harness & AI Context|Agentic Harness & AI Context Architecture]]
+- [[AI/Agentic AI|Agentic AI & Autonomous Workflows]]
+- [[AI/AI Model|The Role of Foundation AI Models]]
+- [[Obsidian/YAML|YAML Metacognition & Structured Context]]
+- [[Obsidian/The Digital Garden Strategy|The Digital Garden Strategy]]

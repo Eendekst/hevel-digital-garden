@@ -3,6 +3,8 @@ quartz-engine/node_modules
 quartz-engine/public
 quartz-engine/.quartz-cache
 quartz-engine/content
+quartz-engine/.deploy_git
+quartz-engine/git_backup
 
 # Temp sync artifacts
 notes_sync_temp

@@ -8,18 +8,29 @@ description: "Mastering YAML frontmatter in Obsidian: token-efficient metadata s
 tags:
   - Technology
   - administration
-aliases: []
+aliases:
+  - YAML Metacognition
 cssclasses: []
 cover: "[[Black-man-in-library.jpg]]"
 ---
-# YAML properties
-are context and instruction lines at the beginning of markdown notes. You are free to use them or not. They are:
-* The most sophisticated technological way to manually organize your data
-* One of the most token-efficient way to inject context and instruction to AI
-* Human and machine readable
 
-All you need to do is type "---" at the beginning of a note to start typing your YAML properties.
-## The Fields
+> [!KEY TAKEAWAY]
+> **YAML Metacognition** is the practice of structuring thought through metadata headers at the top of markdown notes, creating an explicit cognitive layer that sharpens human reasoning while enabling instant, token-efficient AI indexing. By defining key-value properties (`title`, `tags`, `author`, `publish`) in plain text, you build a deterministic bridge between human intent and machine execution.
+
+## What is YAML Frontmatter?
+
+**YAML (YAML Ain't Markup Language) frontmatter is a human- and machine-readable metadata block placed at the beginning of a Markdown note between triple dashes (`---`).** 
+
+It provides three foundational advantages:
+1. **The Most Sophisticated Manual Data Organization**: Transforms flat text files into queryable relational databases without complex software.
+2. **The Most Token-Efficient AI Context Layer**: Injects structured categorical parameters into Large Language Models using minimal token overhead.
+3. **Universal Interoperability**: Readable by humans, Obsidian Dataview, static site generators (Quartz), and local AI agent harnesses alike.
+
+All you need to do is type `---` at the very top of your note to initialize your frontmatter properties.
+
+---
+
+## The Sovereign Frontmatter Schema
 
 ```yaml
 ---
@@ -29,14 +40,45 @@ publish: false             # Set to true to make the page public (private by def
 created: YYYY-MM-DD        # History (creation date)
 modified: YYYY-MM-DD       # Freshness (last modified date)
 author: Jason              # The Human Source (Default)
-description: ""            # A 150-char hook designed for Google Click-Through Rate
+description: ""            # A 150-char hook designed for Google Click-Through Rate & AI Overviews
 tags: []                   # Topics (bracketed: [tag1, tag2])
 aliases: []                # Alternate Title, Misspelling, Voice Search Phrase
 cssclasses: []             # Custom CSS styling classes
-cover: ""                  # URL or Path (Required for Master Notes)
+cover: ""                  # Relative path to image (Required for Master Notes)
 ---
 ```
 
-You can use all kinds of YAML properties in your files (type, category, external/internal links, etc.). This is just my template.
+You can customize your YAML schema to include any domain-specific properties you need (e.g., `status: in-progress`, `type: case-study`, `links: []`).
 
-This human-machine-readable syntax will add a cognitive layer for you to share with your intelligence system and organically augment the depth of your thinking alongside internal linkage.
+---
+
+## Unstructured Notes vs. YAML Frontmatter vs. Cloud Databases
+
+| Dimension | Unstructured Plain Text | YAML Frontmatter in Markdown | Proprietary Cloud Database (Notion) |
+| :--- | :--- | :--- | :--- |
+| **Machine Readability** | Low (requires probabilistic text parsing) | High (deterministic key-value parsing) | High (via proprietary API) |
+| **Token Efficiency** | Poor (AI must parse entire note body) | Maximum (AI reads 10-line header) | Moderate (verbose JSON payloads) |
+| **Data Sovereignty** | 100% Local | 100% Local & Future-Proof | Zero (Locked in SaaS cloud) |
+| **Query Flexibility** | Full-text grep search only | Instant SQL-like Dataview queries | GUI filter grids |
+| **Cognitive Friction** | Minimal structure | Forces active categorization (Metacognition) | Complex database setup |
+
+This human-machine-readable syntax adds an explicit cognitive layer to your second brain, organically augmenting the depth of your thinking alongside internal wikilinks.
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
+
+### Why is YAML frontmatter the most token-efficient way to give AI context?
+**Because YAML packs maximum semantic density into minimal syntax.** Instead of passing a 2,000-word note to an AI model just to communicate its category, status, and relationships, an agentic harness can read a 10-line YAML block, consuming fewer than 50 tokens while achieving 100% classification precision.
+
+### How does writing YAML improve human thinking (Metacognition)?
+**Writing YAML forces you to categorize an idea before drafting it.** By explicitly deciding the note's purpose, tags, and audience, you clarify your own mental taxonomy and avoid unfocused writing.
+
+---
+
+### 🔗 Related Notes & Core Concepts
+- [[Obsidian/How to build your vault|How to Build Your Sovereign Vault]]
+- [[Obsidian/Agentic Harness & AI Context|Agentic Harness & AI Context Architecture]]
+- [[Obsidian/Data Science & Empirical Signal Extraction|Data Science & Empirical Signal Extraction]]
+- [[Atomic Notes/The Cycle of Competence|The Cycle of Competence]]
+- [[Obsidian/Obsidian note|The Anatomy of an Obsidian Note]]

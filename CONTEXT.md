@@ -46,13 +46,19 @@ rules:
 
 ## 🎯 GEO & Content Optimization Rules
 
-1. **Pillar Articles**: Start with `> [!KEY TAKEAWAY]` (high-density thesis). Wrap core definitions in `> [!KEY CONCEPT]`. Use comparison tables.
-2. **Atomic Notes**: Retain concise authentic text; ensure YAML `description` has a standalone 120–160 char summary.
-3. **Hierarchy**: Strict heading depth (`# H1` -> `## H2` -> `### H3`).
-4. **Links**:
-   - **Internal (`[[Wikilinks]]`)**: 100% manual. Never auto-generate or re-route.
-   - **Outbound**: Open in new tab (`target="_blank" rel="noopener noreferrer"`).
-5. **Schema.org**: Injected via Quartz `Head.tsx` (`TechArticle`, `Article`, `WebSite`, `ProfilePage` + `sameAs` socials, `BreadcrumbList`).
+1. **Canonical Entity Definitions**:
+   - **Hevel**: *"Hevel is an autonomous intelligence lab and digital garden founded by Jason G., synthesizing biblical wisdom and digital sovereignty to transform local-first Obsidian vaults into augmented intelligence systems."*
+   - **Digital Garden**: *"A Digital Garden is a bi-directionally linked knowledge network, a 'Wiki' published directly from a local-first Markdown vault, prioritizing continuous idea cultivation and non-linear exploration over static, chronological blogging."*
+   - **Agentic Harness**: *"An Agentic Harness is a structured local environment—which can scale pragmatically from a single high-density `CONTEXT.md` file up to multi-layer rules, tool protocols (MCP), and verification loops—that constrains and orchestrates Large Language Models into deterministic execution partners."*
+   - **YAML Metacognition**: *"YAML Metacognition is the practice of structuring thought through metadata headers at the top of markdown notes, creating an explicit cognitive layer that sharpens human reasoning while enabling instant, token-efficient AI indexing."*
+   - **Augmented Intelligence (True AI)**: *"Augmented Intelligence (True AI) is the intentional expansion of human cognitive capacity achieved by delegating memory, knowledge structures, and retrieval to digital tools, transforming external Markdown vaults into active extensions of biological intellect."*
+   - **Digital Sovereignty**: *"Digital Sovereignty is the principle of complete ownership over one's cognitive data and software environment, achieved by storing knowledge in open, local-first Markdown files rather than proprietary, cloud-locked databases."*
+   - **Empirical Signal Extraction**: *"Empirical Signal Extraction is the systematic filtering of raw data, media captures, and literature into validated, high-conviction insights by treating local Markdown files as structured, queryable database records."*
+2. **Answer-First Structure (BLUF)**: Lead every major `## H2` with an immediate bold definitional or answer-first sentence.
+3. **Pillar Articles**: Start with `> [!KEY TAKEAWAY]`. Include a comparative Markdown matrix and a dedicated `## ❓ Frequently Asked Questions (FAQ)` section.
+4. **Internal Linking**: Contextual inline wikilinks + `### 🔗 Related Notes & Core Concepts` footer clusters.
+5. **Outbound Links**: Always open in new tab (`target="_blank" rel="noopener noreferrer"`).
+6. **Schema.org**: Injected via Quartz `Head.tsx` (`TechArticle`, `Article`, `WebSite`, `ProfilePage`, `Organization`, `BreadcrumbList`).
 
 ---
 
