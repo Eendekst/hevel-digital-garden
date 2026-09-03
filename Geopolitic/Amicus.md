@@ -1,4 +1,4 @@
-﻿---
+---
 title: Amicus
 publish: true
 created: 2026-08-07
@@ -19,12 +19,12 @@ cover: "[[Headless Devious.gif]]"
 
 # Who Really Writes the Laws?
 
-When we watch the news, we are taught to believe that elected officialsâ€”presidents, prime ministers, and legislatorsâ€”are the sole architects of law and public policy. 
+When we watch the news, we are taught to believe that elected officials—presidents, prime ministers, and legislators—are the sole architects of law and public policy. 
 
 In reality, elected figures are often the **public faces** for complex policy projects. Behind the podiums, the vast majority of bills, regulations, and executive orders are drafted, sponsored, and driven by unseen actors: policy advisors, corporate lobbyists, bureaucratic agencies, and legal advocacy groups (the *Amici Curiae* or "friends of the court").
 
 > [!KEY CONCEPT] The Frontman Illusion
-> Most citizens believe public figures originate national strategy. In practice, politicians operate with structural sponsorsâ€”networks of lobbyists, career bureaucrats, and legal think tanks who supply the pre-written legislation, legislative briefs, and regulatory frameworks ready for signature.
+> Most citizens believe public figures originate national strategy. In practice, politicians operate with structural sponsors—networks of lobbyists, career bureaucrats, and legal think tanks who supply the pre-written legislation, legislative briefs, and regulatory frameworks ready for signature.
 > **ICE Police forces aren't Trump's idea**
 
 ---
