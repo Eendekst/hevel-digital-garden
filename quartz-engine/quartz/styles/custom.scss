@@ -14,15 +14,16 @@
 }
 
 :root[saved-theme="dark"] {
-  --visitedNode: #B0E0E6;  // Powder Blue
-  --tagNode: #A9A9A9;      // Gray
-  --currentNode: #E30A86;  // Pink
-  --normalNode: #007BB8;   // Blue
+  --visitedNode: #7DD3FC;  // Icy Sky Blue
+  --tagNode: #64748B;      // Slate Gray
+  --currentNode: #0EA5E9;  // Electric Cyan
+  --normalNode: #0284C7;   // Deep Ocean Blue
   
-  --glass-background: rgba(47, 47, 47, 0.65);
-  --glass-border: rgba(227, 10, 134, 0.25);
-  --glow-color: rgba(227, 10, 134, 0.3);
+  --glass-background: rgba(18, 21, 26, 0.75);
+  --glass-border: rgba(14, 165, 233, 0.25);
+  --glow-color: rgba(14, 165, 233, 0.35);
 }
+
 
 // Global reset to Cyber Monk sharp corners
 * {

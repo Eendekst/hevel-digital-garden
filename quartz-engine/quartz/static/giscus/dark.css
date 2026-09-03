@@ -60,20 +60,21 @@ main {
   --color-segmented-control-bg: rgb(110 118 129 / 10%);
   --color-segmented-control-button-bg: #0d1117;
   --color-segmented-control-button-selected-border: #6e7681;
-  --color-fg-default: #ebebec; /* --dark */
-  --color-fg-muted: #d4d4d4; /* --darkgray */
-  --color-fg-subtle: #d4d4d4; /* --darkgray */
-  --color-canvas-default: #0d1117;
-  --color-canvas-overlay: #161b22;
-  --color-canvas-inset: #010409;
-  --color-canvas-subtle: #161b22;
-  --color-border-default: #30363d;
-  --color-border-muted: #21262d;
-  --color-neutral-muted: rgb(110 118 129 / 40%);
-  --color-accent-fg: #2f81f7;
-  --color-accent-emphasis: #1f6feb;
-  --color-accent-muted: rgb(56 139 253 / 40%);
-  --color-accent-subtle: rgb(56 139 253 / 10%);
+  --color-fg-default: #FFFFFF; /* --dark */
+  --color-fg-muted: #E2E8F0; /* --darkgray */
+  --color-fg-subtle: #94A3B8; /* --gray */
+  --color-canvas-default: #12151A;
+  --color-canvas-overlay: #181D24;
+  --color-canvas-inset: #0B0D10;
+  --color-canvas-subtle: #181D24;
+  --color-border-default: #222A35;
+  --color-border-muted: #1A202C;
+  --color-neutral-muted: rgb(14 165 233 / 15%);
+  --color-accent-fg: #0EA5E9;
+  --color-accent-emphasis: #0284C7;
+  --color-accent-muted: rgb(14 165 233 / 40%);
+  --color-accent-subtle: rgb(14 165 233 / 10%);
+
   --color-success-fg: #3fb950;
   --color-attention-fg: #d29922;
   --color-attention-muted: rgb(187 128 9 / 40%);
