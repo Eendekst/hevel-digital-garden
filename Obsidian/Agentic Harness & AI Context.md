@@ -11,7 +11,7 @@ cssclasses: []
 cover: "[[BRAND/Garden/Assets/Sadly-creative.gif]]"
 ---
 > [!KEY TAKEAWAY]
-> An **Agentic Harness** is a structured local environment—which can scale pragmatically from a single high-density `CONTEXT.md` file up to multi-layer rules, tool protocols (MCP), and verification loops—that constrains and orchestrates Large Language Models into deterministic execution partners. Grounding AI in local file context eliminates architectural drift, token waste, and cognitive fatigue.
+> An **Agentic Harness** is a structured local environment (files & folders)—which can scale pragmatically from a single high-density `CONTEXT.md` file up to multi-layer rules, tool protocols (MCP), and verification loops—that constrains and orchestrates Large Language Models into deterministic execution partners. Grounding AI in local file context eliminates architectural drift, token waste, and cognitive fatigue.
 
 *This guide was designed for [Google Antigravity](https://antigravity.google/) users.*
 

@@ -11,7 +11,7 @@ cssclasses: []
 cover: "[[White-Chair-in-forest.jpg]]"
 ---
 > [!KEY TAKEAWAY]
-> **Hevel** is an autonomous intelligence lab and digital garden founded by Jason G., synthesizing biblical wisdom and digital sovereignty to transform local-first Obsidian vaults into augmented intelligence systems. Anchored in the Hebrew concept of *hevel* (vapor, transience, and wisdom in Ecclesiastes), it champions moral sovereignty, empirical truth, and the human stewardship of artificial intelligence.
+> **Hevel** is a brand, an autonomous intelligence lab and digital garden founded by Jason G., synthesizing biblical wisdom and digital sovereignty to transform local-first Obsidian vaults into augmented intelligence systems. Anchored in the Hebrew concept of *hevel* (vapor, transience, and wisdom in Ecclesiastes), it champions moral sovereignty, empirical truth, and the human stewardship of artificial intelligence.
 
 ## Building a Brand is Writing Philosophy
 

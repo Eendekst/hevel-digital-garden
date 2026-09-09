@@ -14,7 +14,7 @@ cover: "[[Free-Ghost.jpg]]"
 ___
 
 > [!KEY TAKEAWAY]
-> A **Context Engineer** is a software architect who designs the external cognitive environment—instructions, workspace memory, tool protocols, and guardrails—surrounding an AI model. Rather than writing raw procedural code, context engineers structure deterministic Markdown files to orchestrate autonomous Large Language Models.
+> A **Context Engineer** is a software architect who designs the cognitive environment—instructions, workspace memory, tool protocols, and guardrails—surrounding an AI model. Rather than writing raw procedural code, context engineers structure deterministic **Markdown files** to orchestrate autonomous Large Language Models.
 
 ## What is a Context Engineer?
 
@@ -28,14 +28,14 @@ ___
 
 In an [[Obsidian/Agentic Harness & AI Context|Agentic Harness]], a context engineer structures six distinct layers of information:
 
-| Context Layer | Primary Function | Practical Implementation in Markdown |
-| :--- | :--- | :--- |
-| **1. Instructions** | Defining core roles, goals, and execution persona | System prompts and `CONTEXT.md` high-level goals |
-| **2. Knowledge** | Connecting domain-specific data and schemas | Architectural diagrams, design tokens, and API docs |
-| **3. Memory** | Managing session state and long-term project history | Session transcript logs and local `.md` project state |
-| **4. Examples** | Providing few-shot behavioral demonstrations | Gold-standard code snippets and testing patterns |
-| **5. Tools** | Equipping the agent with executable capabilities | Model Context Protocol (MCP) servers and shell scripts |
-| **6. Guardrails** | Enforcing non-negotiable boundaries and rules | `.agents/rules.md` and automated build verifications |
+| Context Layer       | Primary Function                                     | Practical Implementation in Markdown                             |
+| :------------------ | :--------------------------------------------------- | :--------------------------------------------------------------- |
+| **1. Instructions** | Defining core roles, goals, and execution persona    | System prompts and `CONTEXT.md` high-level goals                 |
+| **2. Knowledge**    | Connecting domain-specific data and schemas          | Architectural diagrams, design tokens, and API docs              |
+| **3. Memory**       | Managing session state and long-term project history | Session transcript logs and local `.md` project state            |
+| **4. Examples**     | Providing few-shot behavioral demonstrations         | Gold-standard code snippets and testing patterns                 |
+| **5. Tools**        | Equipping the agent with executable capabilities     | Model Context Protocol (MCP) servers and shell scripts skills.md |
+| **6. Guardrails**   | Enforcing non-negotiable boundaries and rules        | `.agents/rules.md` and automated build verifications             |
 
 ---
 

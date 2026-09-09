@@ -1,12 +1,19 @@
 ---
-title: "Home"
+title: Home
 publish: true
 created: 2026-07-10
 modified: 2026-09-08
 author: Jason
-description: "Sovereign Technology & Agentic AI Architect Lab, Faith, Geopolitics, and Knowledge Garden by Jason G."
-tags: [ai, technology, faith, geopolitics, obsidian]
-aliases: ["Here", "landing page"]
+description: Sovereign Technology & Agentic AI Architect Lab, Faith, Geopolitics, and Knowledge Garden by Jason G.
+tags:
+  - ai
+  - technology
+  - faith
+  - obsidian
+  - data-sovereignty
+aliases:
+  - Here
+  - landing page
 cssclasses: []
 cover: "[[Assets/Open-Mind-Walk.jpg]]"
 ---
@@ -16,24 +23,21 @@ cover: "[[Assets/Open-Mind-Walk.jpg]]"
 >-1 Corinthians 3:11*
 
 > [!KEY TAKEAWAY] Welcome to Hevel's Digital Garden
-> **Hevel** is an autonomous intelligence lab and digital garden founded by Jason G., synthesizing biblical wisdom and digital sovereignty to transform local-first Obsidian vaults into augmented intelligence systems. A **Digital Garden** is a bi-directionally linked knowledge network, a "Wiki" published directly from a local-first Markdown vault, prioritizing continuous idea cultivation and non-linear exploration over static, chronological blogging.
-
-This website is a [[Obsidian/The Digital Garden Strategy|Digital garden]], [[Hevel/Hevel|Hevel]]'s home.
+> **[[Hevel]]** is a brand and digital garden founded by Jason G., combining biblical wisdom and digital sovereignty to transform local-first [Obsidian](https://obsidian.md/) vaults into augmented intelligence systems. A **[[Digital Garden]]** is a bi-directionally linked knowledge network, a "Wiki" published directly from a local-first Markdown vault, prioritizing continuous idea cultivation and non-linear exploration over static, chronological blogging.
 
 ---
 
-## 🏛️ Core Knowledge Districts
+## Our Expertise
 
-Explore the primary knowledge clusters cultivated across this digital estate:
+Explore the primary knowledge pillars cultivated across this website:
 
-| District | Core Focus & Flagship Concept | Key Flagship Note |
-| :--- | :--- | :--- |
-| **Agentic AI & Harnesses** | Context engineering, MCP registries, and deterministic agent orchestration | [[Obsidian/Agentic Harness & AI Context\|Agentic Harness & AI Context]] |
-| **Augmented Intelligence** | Extended Mind Theory, biological memory expansion, and "True AI" | [[Obsidian/Augmented Intelligence\|Augmented Intelligence]] |
-| **Vault Architecture & YAML** | Local-first file systems, plain-text longevity, and metadata metacognition | [[Obsidian/How to build your vault\|How to build your vault]] |
-| **Empirical Data Science** | Signal extraction, APPASA protocol, and Big Picture dashboards | [[Obsidian/Data Science & Empirical Signal Extraction\|Data Science & Empirical Signal Extraction]] |
-| **Geopolitical Analysis** | Administrative engineering, monetary sovereignty, and institutional research | [[Geo/Geopolitic/Haiti and Administrative Invasions\|Haïti & Administrative Invasions]] |
-| **Faith & Sovereignty** | Biblical alignment, psalm wisdom, and moral sovereignty | [[Hevel/Hevel\|Hevel Philosophy]] |
+| District                      | Core Focus & Flagship Concept                                              | Key Flagship Note                                                                                   |
+| :---------------------------- | :------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
+| **Agentic AI & Harnesses**    | Context engineering, MCP registries, and deterministic agent orchestration | [[Obsidian/Agentic Harness & AI Context\|Agentic Harness & AI Context]]                             |
+| **Augmented Intelligence**    | Extended Mind Theory, biological memory expansion, and "True AI"           | [[Obsidian/Augmented Intelligence\|Augmented Intelligence]]                                         |
+| **Vault Architecture & YAML** | Local-first file systems, plain-text longevity, and metadata metacognition | [[Obsidian/How to build your vault\|How to build your vault]]                                       |
+| **Empirical Data Science**    | Signal extraction, APPASA protocol, and Big Picture dashboards             | [[Obsidian/Data Science & Empirical Signal Extraction\|Data Science & Empirical Signal Extraction]] |
+| **Faith & Sovereignty**       | Biblical alignment, psalm wisdom, and moral sovereignty                    | [[Hevel/Hevel\|Hevel Philosophy]]                                                                   |
 
 ---
 
