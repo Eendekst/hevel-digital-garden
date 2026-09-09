@@ -1,12 +1,11 @@
 ---
-title: Do you trust me bro
+title: "Do you trust me bro"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "A transparent look at the human behind Hevel: sovereign technology, spiritual conviction, and building high-trust digital relationships."
-tags:
-  - Jason
+tags: [jason]
 aliases: []
 cssclasses: []
 cover: "[[Black-man-in-library.jpg]]"

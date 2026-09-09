@@ -1,15 +1,12 @@
 ---
-title: Cast Your Burden
+title: "Cast Your Burden"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Meditations on Psalm 55:22: releasing anxiety, trusting divine sovereignty, and grounding personal discipline in spiritual conviction."
-tags:
-  - Bible
-  - psalm
-aliases:
-  - psalm 55:22
+tags: [bible, psalm]
+aliases: ["psalm 55:22"]
 cssclasses: []
 cover: "[[Falling-eiffel.jpg]]"
 ---

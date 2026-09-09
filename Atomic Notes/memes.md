@@ -1,14 +1,12 @@
 ---
-title: memes
+title: "memes"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "The historical and cultural definition of memes as units of cultural transmission, cognitive replication, and collective human memory."
-tags:
-  - Technology
-aliases:
-  - meme
+tags: [technology]
+aliases: ["meme"]
 cssclasses: []
 cover: "[[Doll-construction-contractor.jpg]]"
 ---

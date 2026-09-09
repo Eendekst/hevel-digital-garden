@@ -1,12 +1,11 @@
 ---
-title: Agentic AI
+title: "Agentic AI"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Understanding Agentic AI: autonomous goal-driven systems utilizing tool registries, background subagents, and self-correcting execution loops."
-tags:
-  - AI
+tags: [ai]
 aliases: []
 cssclasses: []
 cover: "[[Jeweler-analyzing-diamond-animated.jpg]]"

@@ -1,13 +1,11 @@
 ---
-title: Organization Follows Workflow
+title: "Organization Follows Workflow"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Empirical organization theory: never predict folder hierarchies in advance; allow structure and classification to emerge from actual workflow."
-tags:
-  - administration
-  - AI
+tags: [administration, ai]
 aliases: []
 cssclasses: []
 cover: "[[Green-and-water-droplets.gif]]"

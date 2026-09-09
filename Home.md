@@ -1,19 +1,12 @@
 ---
-title: Home
+title: "Home"
 publish: true
 created: 2026-07-10
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
-description: Sovereign Technology & Agentic AI Architect Lab, Faith, Geopolitics, and Knowledge Garden by Jason G.
-tags:
-  - AI
-  - Technology
-  - Faith
-  - Geopolitics
-  - Obsidian
-aliases:
-  - Here
-  - landing page
+description: "Sovereign Technology & Agentic AI Architect Lab, Faith, Geopolitics, and Knowledge Garden by Jason G."
+tags: [ai, technology, faith, geopolitics, obsidian]
+aliases: ["Here", "landing page"]
 cssclasses: []
 cover: "[[Assets/Open-Mind-Walk.jpg]]"
 ---
@@ -39,7 +32,7 @@ Explore the primary knowledge clusters cultivated across this digital estate:
 | **Augmented Intelligence** | Extended Mind Theory, biological memory expansion, and "True AI" | [[Obsidian/Augmented Intelligence\|Augmented Intelligence]] |
 | **Vault Architecture & YAML** | Local-first file systems, plain-text longevity, and metadata metacognition | [[Obsidian/How to build your vault\|How to build your vault]] |
 | **Empirical Data Science** | Signal extraction, APPASA protocol, and Big Picture dashboards | [[Obsidian/Data Science & Empirical Signal Extraction\|Data Science & Empirical Signal Extraction]] |
-| **Geopolitical Analysis** | Administrative engineering, monetary sovereignty, and institutional research | [[Geopolitic/Haiti and Administrative Invasions\|Haïti & Administrative Invasions]] |
+| **Geopolitical Analysis** | Administrative engineering, monetary sovereignty, and institutional research | [[Geo/Geopolitic/Haiti and Administrative Invasions\|Haïti & Administrative Invasions]] |
 | **Faith & Sovereignty** | Biblical alignment, psalm wisdom, and moral sovereignty | [[Hevel/Hevel\|Hevel Philosophy]] |
 
 ---
@@ -132,7 +125,7 @@ Imagine:
 * Augmented search and organization 
 * Become a [[AI/context engineers|context engineer]]; the most in demand skill ever
 
-From an existential standpoint, augmented intelligence is a shield against [[Geopolitic/psyops and propaganda|psyops and propaganda]]. **Building context for yourself keeps you from relying on another's vision.**
+From an existential standpoint, augmented intelligence is a shield against [[Geo/Geopolitic/psyops and propaganda|psyops and propaganda]]. **Building context for yourself keeps you from relying on another's vision.**
 
 Big data companies such as Google, Capital One and Amazon are all using Obsidian for this very end. You can do it too if you start organizing your digital life.
 

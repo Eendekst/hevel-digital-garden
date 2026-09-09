@@ -1,14 +1,11 @@
 ---
-title: Big Picture View
+title: "Big Picture View"
 publish: true
 created: 2026-04-09
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Defining the big-picture view: elevating above isolated tasks to synthesize macro strategy, systemic leverage, and long-term trajectory."
-tags:
-  - Philosophy
-  - Strategy
-  - Meta
+tags: [philosophy, strategy, meta]
 aliases: []
 cssclasses: []
 cover: "[[Cave-outside-the-city-gif.gif]]"

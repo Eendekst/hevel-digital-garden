@@ -1,12 +1,11 @@
 ---
-title: Global Optimization
+title: "Global Optimization"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Principles of global system optimization: why optimizing local sub-components in isolation often degrades the total systemic outcome."
-tags:
-  - Data
+tags: [data]
 aliases: []
 cssclasses: []
 cover: "[[White-cloud-blackwater.jpg]]"

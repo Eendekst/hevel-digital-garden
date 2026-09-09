@@ -1,13 +1,11 @@
 ---
-title: Premature Optimization
+title: "Premature Optimization"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Why premature optimization is the root of wasted momentum: build, test, and ship the core loop before refining peripheral details."
-tags:
-  - administration
-  - Data
+tags: [administration, data]
 aliases: []
 cssclasses: []
 cover: "[[Direction-not-speed.jpg]]"

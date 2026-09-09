@@ -1,12 +1,11 @@
 ---
-title: Power
+title: "Power"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "The operational definition of power: the capacity to translate intent into reality through disciplined leverage and sovereign tools."
-tags:
-  - Philosophy
+tags: [philosophy]
 aliases: []
 cssclasses: []
 cover: "[[desk-setup-in-the-jungle.jpg]]"

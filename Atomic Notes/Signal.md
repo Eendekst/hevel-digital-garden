@@ -1,8 +1,8 @@
 ---
-title: Signal
+title: "Signal"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Extracting pure signal in an era of digital noise: identifying high-conviction, enduring truths across technology, faith, and markets."
 tags: []

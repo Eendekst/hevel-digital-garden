@@ -1,29 +1,15 @@
 ---
-vault_root: "C:\\Users\\Hevel\\Lab\\Mobile\\BRAND\\Garden"
-live_url: "https://garden.hevel.ca"
-repo: "https://github.com/Eendekst/hevel-digital-garden.git"
-engine: "Quartz 4.5.2"
-author: "Jason G."
-organization: "Hevel Digital Garden"
-entity_type: "Person + Organization (Dual Identity)"
-sameAs:
-  - "https://www.youtube.com/@HevelProd"
-  - "https://www.instagram.com/hevelshow/"
-  - "https://www.tiktok.com/@hevelstudio"
-  - "https://ca.pinterest.com/HevelInsights/"
-pillars:
-  - "Sovereign Technology & Agentic Systems (Local-first AI, harnesses, Obsidian)"
-  - "Faith & Spiritual Sovereignty (Biblical alignment, theology, psalm wisdom)"
-  - "Geopolitical & Historical Analysis (Administrative engineering, sovereignty, Haiti research)"
-  - "Digital Garden Architecture (Non-linear knowledge bases, markdown, signal extraction)"
-rules:
-  wikilinks: "100% manual (AI never rewrites/adds links)"
-  outbound_links: "Always open in new tab (target='_blank' rel='noopener noreferrer')"
-  encoding: "Strict UTF-8 (preserve accents/emojis)"
-  deploy_primary: "Push-To-Main.ps1 -> GitHub Actions (deploy.yml) -> gh-pages"
-  deploy_fallback: "Deploy-Garden.ps1 (local direct push to gh-pages)"
+title: "CONTEXT"
+publish: true
+created: 2026-08-27
+modified: 2026-09-08
+author: Jason G.
+description: ""
+tags: []
+aliases: []
+cssclasses: []
+cover: ""
 ---
-
 # Hevel Digital Garden — Agentic Context & Harness
 
 ## 📋 Frontmatter Schema Table

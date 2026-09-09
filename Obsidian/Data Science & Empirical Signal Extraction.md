@@ -1,23 +1,15 @@
 ---
-title: Data Science & Empirical Signal Extraction
+title: "Data Science & Empirical Signal Extraction"
 publish: true
 created: 2026-08-07
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
-description: How to conduct empirical data science and signal extraction in Obsidian using YAML taxonomies, Dataview queries, and visual Canvas dashboards.
-tags:
-  - AI
-  - administration
-  - Data
-  - Mastery
-  - Data-Science
-aliases:
-  - Data Science in Obsidian
-  - Empirical Signal Extraction
+description: "How to conduct empirical data science and signal extraction in Obsidian using YAML taxonomies, Dataview queries, and visual Canvas dashboards."
+tags: [ai, administration, data, mastery, data-science]
+aliases: ["Data Science in Obsidian", "Empirical Signal Extraction"]
 cssclasses: []
 cover: "[[BRAND/Garden/Assets/desk-setup-in-the-jungle.jpg]]"
 ---
-
 > [!KEY TAKEAWAY]
 > **Empirical Signal Extraction** is the systematic filtering of raw data, media captures, and literature into validated, high-conviction insights by treating local Markdown files as structured, queryable database records. Moving beyond passive data hoarding, this methodology leverages Dataview queries, YAML taxonomies, and visual Canvas synthesis to power high-leverage decision-making.
 

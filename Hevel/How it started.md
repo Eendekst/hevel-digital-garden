@@ -1,12 +1,11 @@
 ---
-title: How it started
+title: "How it started"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "The founding story and origin thesis of Hevel: transforming personal research into an open sovereign laboratory and digital garden."
-tags:
-  - Hevel
+tags: [hevel]
 aliases: []
 cssclasses: []
 cover: "[[Flamehead-on-rooftop.jpg]]"

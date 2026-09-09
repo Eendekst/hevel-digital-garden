@@ -1,19 +1,15 @@
 ---
-title: Treasures in Darkness
+title: "Treasures in Darkness"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Spiritual reflection on Isaiah 45:3: uncovering hidden wisdom, divine resilience, and intellectual treasures forged through trials."
-tags:
-  - Bible
-  - Isaiah
-aliases:
-  - Isaiah 45:3
+tags: [bible, isaiah]
+aliases: ["Isaiah 45:3"]
 cssclasses: []
 cover: "[[Black-and-White-outside-looking-through-stores.jpg]]"
 ---
-
 >"I will give you the **treasures in the darkness**..." (Isaiah 45:3)
 
 The world fears darkness, equating it with emptiness. But the **Digital Garden** treats darkness as a **Vault**.

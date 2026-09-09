@@ -1,22 +1,15 @@
 ---
-title: The Digital Garden Strategy
+title: "The Digital Garden Strategy"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
-description: The strategic framework for building a living, bi-directionally linked digital garden with Obsidian and Markdown as an interconnected brand hub.
-tags:
-  - Technology
-  - obsidian
-  - Strategy
-  - Digital-Garden
-aliases:
-  - Digital garden
-  - Digital Garden Framework
+description: "The strategic framework for building a living, bi-directionally linked digital garden with Obsidian and Markdown as an interconnected brand hub."
+tags: [technology, obsidian, strategy, digital-garden]
+aliases: ["Digital garden", "Digital Garden Framework"]
 cssclasses: []
 cover: "[[Green-and-water-droplets.gif]]"
 ---
-
 > [!KEY TAKEAWAY]
 > A **Digital Garden** is a bi-directionally linked knowledge network, a "Wiki" published directly from a local-first Markdown vault, prioritizing continuous idea cultivation and non-linear exploration over static, chronological blogging. By publishing notes directly from a local Obsidian vault via open Markdown standards and Quartz, you cultivate enduring brand authority and non-linear discovery.
 

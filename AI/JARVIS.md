@@ -1,19 +1,15 @@
 ---
-title: JARVIS
+title: "JARVIS"
 publish: true
 created: 2026-04-09
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Conceptualizing a personal JARVIS architecture: local-first agentic assistants grounded in personal knowledge bases and autonomous tool execution."
-tags:
-  - Vision
-  - Future
-  - AI
+tags: [vision, future, ai]
 aliases: []
 cssclasses: []
 cover: "[[Inspired-robot.jpg]]"
 ---
-
 # The JARVIS Standard
 
 **J.A.R.V.I.S.** (Just A Rather Very Intelligent System) is the gold standard of AI-Human interaction.

@@ -1,19 +1,15 @@
 ---
-title: YAML
+title: "YAML"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Mastering YAML frontmatter in Obsidian: token-efficient metadata schemas, AI context injection, and structured knowledge management."
-tags:
-  - Technology
-  - administration
-aliases:
-  - YAML Metacognition
+tags: [technology, administration]
+aliases: ["YAML Metacognition"]
 cssclasses: []
 cover: "[[Black-man-in-library.jpg]]"
 ---
-
 > [!KEY TAKEAWAY]
 > **YAML Metacognition** is the practice of structuring thought through metadata headers at the top of markdown notes, creating an explicit cognitive layer that sharpens human reasoning while enabling instant, token-efficient AI indexing. By defining key-value properties (`title`, `tags`, `author`, `publish`) in plain text, you build a deterministic bridge between human intent and machine execution.
 

@@ -1,19 +1,15 @@
 ---
-title: Why do you use a computer file system from the 70's
+title: "Why do you use a computer file system from the 70's"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Why hierarchical folder systems are obsolete: how Obsidian graph views and bi-directional linking liberate human thought from 1970s folders."
-tags:
-  - Technology
-aliases:
-  - Wake up
-  - Digital Sovereignty
+tags: [technology]
+aliases: ["Wake up", "Digital Sovereignty"]
 cssclasses: []
 cover: "[[desk-setup-in-the-jungle.jpg]]"
 ---
-
 > [!KEY TAKEAWAY]
 > **Digital Sovereignty** is the principle of complete ownership over one's cognitive data and software environment, achieved by storing knowledge in open, local-first Markdown files rather than proprietary, cloud-locked databases. Replacing 1970s hierarchical filing cabinets with bi-directional relational graphs preserves data longevity and unlocks true augmented intelligence.
 

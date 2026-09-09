@@ -1,19 +1,15 @@
 ---
-title: context engineers
+title: "context engineers"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Why AI engineers are evolving into context engineers: mastering prompt scoping, local knowledge retrieval, and deterministic agent harnesses."
-tags:
-  - AI
-aliases:
-  - context engineer
-  - agentic harness
+tags: [ai]
+aliases: ["context engineer", "agentic harness"]
 cssclasses: []
 cover: "[[Free-Ghost.jpg]]"
 ---
-
 # Context Engineers: The System Orchestrators of Agentic AI
 ___
 

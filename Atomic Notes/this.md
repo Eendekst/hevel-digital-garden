@@ -1,8 +1,8 @@
 ---
-title: this
+title: "this"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "A foundational anchor note exploring recursive self-reference, system state pointers, and digital presence in knowledge architectures."
 tags: []

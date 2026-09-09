@@ -1,12 +1,11 @@
 ---
-title: AI Model
+title: "AI Model"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "A foundational breakdown of AI models, neural weights, and why model capability is supercharged when paired with an agentic context harness."
-tags:
-  - AI
+tags: [ai]
 aliases: []
 cssclasses: []
 cover: "[[Patient-smoker.jpg]]"

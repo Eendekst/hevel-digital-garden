@@ -1,23 +1,15 @@
 ---
-title: Agentic Harness & AI Context
+title: "Agentic Harness & AI Context"
 publish: true
 created: 2026-08-07
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
-description: Comprehensive architecture guide to engineering local AI context, agentic harnesses, MCP tool registries, and empirical verification loops.
-tags:
-  - AI
-  - Data
-  - Data-Science
-  - Mastery
-  - Technology
-aliases:
-  - Agentic Harness
-  - AI Context Engineering
+description: "Comprehensive architecture guide to engineering local AI context, agentic harnesses, MCP tool registries, and empirical verification loops."
+tags: [ai, data, data-science, mastery, technology]
+aliases: ["Agentic Harness", "AI Context Engineering"]
 cssclasses: []
 cover: "[[BRAND/Garden/Assets/Sadly-creative.gif]]"
 ---
-
 > [!KEY TAKEAWAY]
 > An **Agentic Harness** is a structured local environment—which can scale pragmatically from a single high-density `CONTEXT.md` file up to multi-layer rules, tool protocols (MCP), and verification loops—that constrains and orchestrates Large Language Models into deterministic execution partners. Grounding AI in local file context eliminates architectural drift, token waste, and cognitive fatigue.
 

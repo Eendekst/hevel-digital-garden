@@ -1,22 +1,15 @@
 ---
-title: Augmented Intelligence
+title: "Augmented Intelligence"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
-description: How humans achieve true augmented intelligence by delegating cognitive functions into structured, queryable local knowledge bases.
-tags:
-  - AI
-  - Technology
-  - Philosophy
-  - Cognitive-Science
-aliases:
-  - True AI
-  - Extended Intelligence
+description: "How humans achieve true augmented intelligence by delegating cognitive functions into structured, queryable local knowledge bases."
+tags: [ai, technology, philosophy, cognitive-science]
+aliases: ["True AI", "Extended Intelligence"]
 cssclasses: []
 cover: "[[mr-fire-to-mr-fire.png]]"
 ---
-
 > [!KEY TAKEAWAY]
 > **Augmented Intelligence (True AI)** is the intentional expansion of human cognitive capacity achieved by delegating memory, knowledge structures, and retrieval to digital tools, transforming external Markdown vaults into active extensions of biological intellect. Rather than replacing human thought with black-box automation, Augmented Intelligence elevates human agency through deterministic external substrates.
 

@@ -1,13 +1,11 @@
 ---
-title: The extended mind theory
+title: "The extended mind theory"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Applying Clark & Chalmers' Extended Mind Thesis to personal computing: transforming Obsidian vaults into externalized biological memory."
-tags:
-  - Technology
-  - biology
+tags: [technology, biology]
 aliases: []
 cssclasses: []
 cover: "[[Inspired-robot.jpg]]"

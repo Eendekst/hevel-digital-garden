@@ -1,14 +1,12 @@
 ---
-title: Montreal
+title: "Montreal"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Physical coordinates and intellectual ecosystem of Montreal: a multilingual cultural crossroads cultivating synthesizer intellects."
-tags:
-  - "#Location"
-aliases:
-  - MTL
+tags: [location]
+aliases: ["MTL"]
 cssclasses: []
 cover: "[[Intersection.gif]]"
 ---

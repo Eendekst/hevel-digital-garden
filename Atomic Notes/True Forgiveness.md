@@ -1,13 +1,12 @@
 ---
-title: True Forgiveness
+title: "True Forgiveness"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Understanding true biblical forgiveness: releasing resentment, restoring internal sovereignty, and aligning with spiritual grace."
 tags: []
-aliases:
-  - 1 Corinthians 13:5
+aliases: ["1 Corinthians 13:5"]
 cssclasses: []
 cover: "[[Rainy-under-bridge-car.gif]]"
 ---

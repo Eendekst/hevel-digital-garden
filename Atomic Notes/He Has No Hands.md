@@ -1,15 +1,12 @@
 ---
-title: He Has No Hands
+title: "He Has No Hands"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Spiritual reflection on Isaiah 45:9: the sovereignty of the Creator over the clay, divine purpose, and humble human stewardship."
-tags:
-  - Bible
-  - Isaiah
-aliases:
-  - Isaiah 45:9
+tags: [bible, isaiah]
+aliases: ["Isaiah 45:9"]
 cssclasses: []
 cover: "[[Sad-God-eye.png]]"
 ---

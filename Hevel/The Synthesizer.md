@@ -1,8 +1,8 @@
 ---
-title: The Synthesizer
+title: "The Synthesizer"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Profile of The Synthesizer: cross-disciplinary architects who merge technology, faith, and strategy to build sovereign digital estates."
 tags: []

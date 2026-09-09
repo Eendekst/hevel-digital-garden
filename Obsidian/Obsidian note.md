@@ -1,18 +1,12 @@
 ---
-title: Obsidian note
+title: "Obsidian note"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "The technical anatomy of an Obsidian note: plain-text Markdown, YAML context properties, and bi-directional wikilinks powering local AI."
-tags:
-  - Technology
-  - obsidian
-aliases:
-  - markdown notes
-  - markdown files
-  - markdown
-  - obsidian notes
+tags: [technology, obsidian]
+aliases: ["markdown notes", "markdown files", "markdown", "obsidian notes"]
 cssclasses: []
 cover: ""
 ---

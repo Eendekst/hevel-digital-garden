@@ -1,12 +1,11 @@
 ---
-title: The Cycle of Competence
+title: "The Cycle of Competence"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "The progression from unconscious incompetence to mastery: how rigorous feedback loops and deliberate practice forge sovereign capability."
-tags:
-  - Learning
+tags: [learning]
 aliases: []
 cssclasses: []
 cover: "[[Miniature-man-in-giant-book.jpg]]"

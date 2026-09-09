@@ -1,17 +1,12 @@
 ---
-title: Hevel
+title: "Hevel"
 publish: true
 created: 2026-07-10
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "The core philosophy of Hevel: exploring vapor, vanity, and enduring truth at the intersection of sovereign technology and biblical wisdom."
-tags:
-  - Hevel
-  - Philosophy
-  - Faith
-  - Technology
-aliases:
-  - Hevel Philosophy
+tags: [hevel, philosophy, faith, technology]
+aliases: ["Hevel Philosophy"]
 cssclasses: []
 cover: "[[White-Chair-in-forest.jpg]]"
 ---

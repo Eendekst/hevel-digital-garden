@@ -1,15 +1,12 @@
 ---
-title: Jason G
+title: "Jason G"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Meet Jason G., founder of Hevel: Sovereign Technology Architect, local-first systems designer, and biblical researcher based in Montreal."
-tags:
-  - Source
-  - Orchestrator
-aliases:
-  - Jason
+tags: [source, orchestrator]
+aliases: ["Jason"]
 cssclasses: []
 cover: "[[Jah.gif]]"
 ---

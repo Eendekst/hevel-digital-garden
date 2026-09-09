@@ -1,14 +1,12 @@
 ---
-title: To be honest
+title: "To be honest"
 publish: true
 created: 2026-07-30
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Reflections on genuine intellectual humility, empirical data analysis, and embracing uncertainty while pursuing sovereign mastery."
-tags:
-  - "#observation"
-aliases:
-  - PFAS
+tags: [observation]
+aliases: ["PFAS"]
 cssclasses: []
 cover: "[[Black analyst coffee spilled.gif]]"
 ---

@@ -1,13 +1,11 @@
 ---
-title: potential
+title: "potential"
 publish: true
 created: 2026-07-11
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Deconstructing potential: the latent energy stored in unexecuted capability, requiring disciplined systems to convert into kinetic impact."
-tags:
-  - Strategy
-  - Mastery
+tags: [strategy, mastery]
 aliases: []
 cssclasses: []
 cover: "[[Warrior-in-fire.jpg]]"

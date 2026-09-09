@@ -1,23 +1,15 @@
 ---
-title: How to build your vault
+title: "How to build your vault"
 publish: true
 created: 2026-08-07
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
-description: Practical architectural guide to designing a sovereign local-first Obsidian vault with YAML metadata taxonomies, district routing, and folder hygiene.
-tags:
-  - administration
-  - Data
-  - obsidian
-  - case-study
-  - local-first
-aliases:
-  - Local-First Vault Architecture
-  - Obsidian Vault Guide
+description: "Practical architectural guide to designing a sovereign local-first Obsidian vault with YAML metadata taxonomies, district routing, and folder hygiene."
+tags: [administration, data, obsidian, case-study, local-first]
+aliases: ["Local-First Vault Architecture", "Obsidian Vault Guide"]
 cssclasses: []
 cover: "[[BRAND/Garden/Assets/Miniature-man-in-giant-book.jpg]]"
 ---
-
 > [!KEY TAKEAWAY]
 > A **Sovereign Vault** separates local knowledge management from cloud lock-in by using plain-text Markdown files, clean YAML frontmatter, and shallow folder hierarchies connected through bi-directional wikilinks. Structuring your filesystem into clear functional districts prevents index bloat and empowers AI agents to navigate your knowledge base deterministically.
 

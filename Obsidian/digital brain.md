@@ -1,15 +1,12 @@
 ---
-title: Digital Brain
+title: "Digital Brain"
 publish: true
 created: 2026-04-09
-modified: 2026-08-27
+modified: 2026-09-08
 author: Jason
 description: "Designing a local-first digital brain in Obsidian: turning your personal computer into an active research laboratory and knowledge asset."
-tags:
-  - obsidian
-aliases:
-  - Second brain
-  - digital brains
+tags: [obsidian]
+aliases: ["Second brain", "digital brains"]
 cssclasses: []
 cover: "[[Assets/Open-Mind-Walk.jpg]]"
 ---
