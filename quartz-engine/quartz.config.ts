@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "garden.hevel.ca",
-    ignorePatterns: ["private", "templates", ".obsidian", "node_modules", ".git"],
+    ignorePatterns: ["private", "templates", ".obsidian", "node_modules", ".git", "CONTEXT.md"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

@@ -27,7 +27,7 @@ jobs:
           rm -rf quartz-engine/content
           mkdir -p quartz-engine/content
           # Copy all files from root to content, excluding quartz-engine .git .github
-          rsync -av --exclude='quartz-engine' --exclude='.git' --exclude='.github' . quartz-engine/content/
+          rsync -av --exclude='quartz-engine' --exclude='.git' --exclude='.github' --exclude='CONTEXT.md' . quartz-engine/content/
           # Safety filter: remove any .md files without 'publish: true' in frontmatter
           python3 - <<'PYEOF'
           import os, re

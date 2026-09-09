@@ -18,6 +18,5 @@ is home to multiple projects:
 4. Our brand's Herbalife affiliate website: https://nutrition.hevel.ca
 5. A Calerielife brand partner platform: https://caleriemax.ca
 
-Internally, I am building financial tools, brands, games, and geopolitic journalist AIs and tailored content creation machines.
-
-This list will get bigger over time ;)
+	Internally, I am building financial tools, brands, content and AI Geopolitic journalists. 
+	-Jason
