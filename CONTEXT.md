@@ -1,4 +1,4 @@
-﻿# GARDEN.HEVEL.CA — Project Context & Architectural Specification
+# GARDEN.HEVEL.CA — Project Context & Architectural Specification
 *Official Production Baseline — The Living Digital Knowledge Garden*
 
 ---
