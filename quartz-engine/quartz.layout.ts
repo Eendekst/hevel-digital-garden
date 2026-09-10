@@ -5,13 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [
-    Component.ConditionalRender({
-      component: Component.Newsletter(),
-      condition: (page) => page.fileData.slug === "index",
-    }),
-    Component.Telemetry(),
-  ],
+  afterBody: [Component.Telemetry()],
   footer: Component.Footer({
     links: {
       Pinterest: "https://ca.pinterest.com/HevelInsights/",
@@ -58,6 +52,10 @@ export const defaultContentPageLayout: PageLayout = {
           showTags: true,
         },
       }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.Newsletter(),
       condition: (page) => page.fileData.slug === "index",
     }),
     Component.ArticleTitle(),

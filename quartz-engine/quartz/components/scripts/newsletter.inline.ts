@@ -17,13 +17,13 @@ function setupNewsletterForm() {
     const email = input.value.trim().toLowerCase()
     if (!email || !email.includes("@")) {
       statusEl.style.display = "block"
-      statusEl.innerHTML = `<span style="color: var(--secondary);">Please enter a valid email address.</span>`
+      statusEl.innerHTML = `<span style="color: var(--secondary);">Veuillez entrer une adresse courriel valide.</span>`
       return
     }
 
     const originalBtnText = button.innerHTML
     button.disabled = true
-    button.innerHTML = "<span>Connecting...</span>"
+    button.innerHTML = "<span>Connexion...</span>"
     statusEl.style.display = "none"
 
     try {
@@ -64,15 +64,15 @@ function setupNewsletterForm() {
         if (data.alreadySubscribed) {
           statusEl.innerHTML = `
             <div style="background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 8px; padding: 14px 18px; text-align: center;">
-              <p style="margin: 0; color: #f59e0b; font-weight: bold; font-size: 0.9rem;">SIGNAL ALREADY ACTIVE // DISPATCH PENDING</p>
-              <p style="margin: 4px 0 0 0; color: var(--gray); font-size: 0.8rem;">${data.message || "Your address is already connected to the network. No action required."}</p>
+              <p style="margin: 0; color: #f59e0b; font-weight: bold; font-size: 0.9rem;">SIGNAL DÉJÀ ACTIF // DÉPÊCHE EN COURS</p>
+              <p style="margin: 4px 0 0 0; color: var(--gray); font-size: 0.8rem;">${data.message || "Votre adresse est déjà connectée au réseau. Aucune action requise."}</p>
             </div>
           `
         } else {
           statusEl.innerHTML = `
             <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 8px; padding: 14px 18px; text-align: center;">
-              <p style="margin: 0; color: var(--secondary); font-weight: bold; font-size: 0.9rem;">SIGNAL CONNECTED // DISPATCH ACTIVATED</p>
-              <p style="margin: 4px 0 0 0; color: var(--gray); font-size: 0.8rem;">${data.message || "Your email is connected to the Digital Garden. Check your inbox."}</p>
+              <p style="margin: 0; color: var(--secondary); font-weight: bold; font-size: 0.9rem;">SIGNAL CONNECTÉ // DÉPÊCHE ACTIVÉE</p>
+              <p style="margin: 4px 0 0 0; color: var(--gray); font-size: 0.8rem;">${data.message || "Votre courriel est relié au Jardin Numérique. Consultez votre boîte de réception."}</p>
             </div>
           `
         }
@@ -80,7 +80,7 @@ function setupNewsletterForm() {
         button.disabled = false
         button.innerHTML = originalBtnText
         statusEl.style.display = "block"
-        statusEl.innerHTML = `<span style="color: var(--secondary); font-size: 0.8rem;">${data.error || "An error occurred. Please try again."}</span>`
+        statusEl.innerHTML = `<span style="color: var(--secondary); font-size: 0.8rem;">${data.error || "Une erreur est survenue. Veuillez réessayer."}</span>`
       }
     } catch {
       // Graceful offline fallback
@@ -88,8 +88,8 @@ function setupNewsletterForm() {
       statusEl.style.display = "block"
       statusEl.innerHTML = `
         <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 8px; padding: 14px 18px; text-align: center;">
-          <p style="margin: 0; color: var(--secondary); font-weight: bold; font-size: 0.9rem;">SIGNAL CONNECTED // DISPATCH ACTIVATED</p>
-          <p style="margin: 4px 0 0 0; color: var(--gray); font-size: 0.8rem;">Your email is connected to the Digital Garden.</p>
+          <p style="margin: 0; color: var(--secondary); font-weight: bold; font-size: 0.9rem;">SIGNAL CONNECTÉ // DÉPÊCHE ACTIVÉE</p>
+          <p style="margin: 4px 0 0 0; color: var(--gray); font-size: 0.8rem;">Votre courriel est relié au Jardin Numérique.</p>
         </div>
       `
     }
