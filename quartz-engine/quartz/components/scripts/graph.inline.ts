@@ -167,29 +167,29 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       .filter((l): l is LinkData => l !== null),
   }
 
-  let width = graph.offsetWidth
-  let height = graph.offsetHeight
+  let width = graph.offsetWidth || graph.clientWidth
+  let height = graph.offsetHeight || graph.clientHeight
 
   if (width < 50) {
     const parent = graph.parentElement
-    if (parent && parent.offsetWidth > 50) {
-      width = parent.offsetWidth
+    if (parent && (parent.offsetWidth > 50 || parent.clientWidth > 50)) {
+      width = parent.offsetWidth || parent.clientWidth
     } else {
       if (graph.classList.contains("global-graph-container")) {
-        width = Math.round(window.innerWidth * 0.9)
+        width = Math.round(Math.min(window.innerWidth * 0.92, document.documentElement.clientWidth * 0.92))
       } else {
-        width = Math.round(window.innerWidth - 40)
+        width = Math.round(Math.min(window.innerWidth - 32, document.documentElement.clientWidth - 32))
       }
     }
   }
 
   if (height < 50) {
     const parent = graph.parentElement
-    if (parent && parent.offsetHeight > 50) {
-      height = parent.offsetHeight
+    if (parent && (parent.offsetHeight > 50 || parent.clientHeight > 50)) {
+      height = parent.offsetHeight || parent.clientHeight
     } else {
       if (graph.classList.contains("global-graph-container")) {
-        height = Math.round(window.innerHeight * 0.8)
+        height = Math.round(Math.min(window.innerHeight * 0.76, document.documentElement.clientHeight * 0.76))
       } else {
         height = 250
       }
@@ -416,6 +416,10 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     resolution: window.devicePixelRatio,
     eventMode: "static",
   })
+  app.canvas.style.display = "block"
+  app.canvas.style.margin = "0 auto"
+  app.canvas.style.maxWidth = "100%"
+  app.canvas.style.maxHeight = "100%"
   graph.appendChild(app.canvas)
 
   const stage = app.stage
@@ -753,6 +757,10 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   async function renderGlobalGraph() {
     // Fade music to 60% when global graph is opened
     fadeMusicTo(0.60)
+
+    // Lock page scroll and clear any horizontal displacement
+    document.body.style.overflow = "hidden"
+    window.scrollTo({ left: 0 })
     
     const slug = getFullSlug(window)
     for (const container of containers) {
@@ -762,14 +770,21 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
         sidebar.style.zIndex = "1"
       }
 
+      // Wire mobile close button
+      const closeBtn = container.querySelector(".global-graph-close") as HTMLElement | null
+      if (closeBtn) {
+        closeBtn.onclick = (e) => {
+          e.preventDefault()
+          e.stopPropagation()
+          hideGlobalGraph()
+        }
+      }
+
       const graphContainer = container.querySelector(".global-graph-container") as HTMLElement
       registerEscapeHandler(container, hideGlobalGraph)
       if (graphContainer) {
-        // Defer rendering to next animation frame so the browser can reflow
-        // the modal overlay and report correct offsetWidth/offsetHeight before
-        // PIXI initialises the canvas — this is especially important on mobile
-        // where the fixed overlay transitions from display:none to display:block.
-        await new Promise<void>((resolve) => requestAnimationFrame(() => resolve()))
+        // Defer rendering so browser finishes layout reflow on mobile overlay
+        await new Promise<void>((resolve) => setTimeout(resolve, 60))
         globalGraphCleanups.push(await renderGraph(graphContainer, slug))
       }
     }
@@ -780,6 +795,9 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     if (!window.graphNavigationInProgress) {
       fadeMusicTo(0.0)
     }
+
+    // Restore page scroll
+    document.body.style.overflow = ""
     
     cleanupGlobalGraphs()
     for (const container of containers) {
@@ -810,6 +828,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   document.addEventListener("keydown", shortcutHandler)
   window.addCleanup(() => {
     document.removeEventListener("keydown", shortcutHandler)
+    document.body.style.overflow = ""
     cleanupLocalGraphs()
     cleanupGlobalGraphs()
   })

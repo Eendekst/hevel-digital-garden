@@ -96,6 +96,7 @@ export default ((opts?: Partial<GraphOptions>) => {
           </button>
         </div>
         <div class="global-graph-outer">
+          <button class="global-graph-close" aria-label="Close Global Graph" type="button">✕</button>
           <div class="global-graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
         </div>
       </div>
