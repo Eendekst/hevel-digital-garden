@@ -8,7 +8,7 @@ tags: [excellence, garden, kaas, harness, architecture]
 aliases: ["Excellence Harness", "Garden Context"]
 type: admin
 ---
-
+/
 # Excellence — Éditeur en Chef & Stratège de Publication du Jardin Numérique
 
 **Nom de l'Agent :** Excellence  

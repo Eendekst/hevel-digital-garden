@@ -129,7 +129,7 @@ Imagine:
 * Augmented search and organization 
 * Become a [[AI/context engineers|context engineer]]; the most in demand skill ever
 
-From an existential standpoint, augmented intelligence is a shield against [[Geo/Geopolitic/psyops and propaganda|psyops and propaganda]]. **Building context for yourself keeps you from relying on another's vision.**
+From an existential standpoint, augmented intelligence is a shield against [psyops and propaganda](https://ricky.hevel.ca/#blog?dossier=psyops-and-propaganda). **Building context for yourself keeps you from relying on another's vision.**
 
 Big data companies such as Google, Capital One and Amazon are all using Obsidian for this very end. You can do it too if you start organizing your digital life.
 
