@@ -61,12 +61,21 @@ function setupNewsletterForm() {
       if (res.ok && data.success) {
         form.style.display = "none"
         statusEl.style.display = "block"
-        statusEl.innerHTML = `
-          <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 8px; padding: 14px 18px; text-align: center;">
-            <p style="margin: 0; color: var(--secondary); font-weight: bold; font-size: 0.9rem;">SIGNAL CONNECTÉ // DÉPÊCHE ACTIVÉE</p>
-            <p style="margin: 4px 0 0 0; color: var(--gray); font-size: 0.8rem;">Votre courriel est relié au Jardin Numérique. Consultez votre boîte de réception.</p>
-          </div>
-        `
+        if (data.alreadySubscribed) {
+          statusEl.innerHTML = `
+            <div style="background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 8px; padding: 14px 18px; text-align: center;">
+              <p style="margin: 0; color: #f59e0b; font-weight: bold; font-size: 0.9rem;">SIGNAL DÉJÀ ACTIF // DÉPÊCHE EN COURS</p>
+              <p style="margin: 4px 0 0 0; color: var(--gray); font-size: 0.8rem;">${data.message || "Votre adresse est déjà connectée au réseau. Aucune action requise."}</p>
+            </div>
+          `
+        } else {
+          statusEl.innerHTML = `
+            <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 8px; padding: 14px 18px; text-align: center;">
+              <p style="margin: 0; color: var(--secondary); font-weight: bold; font-size: 0.9rem;">SIGNAL CONNECTÉ // DÉPÊCHE ACTIVÉE</p>
+              <p style="margin: 4px 0 0 0; color: var(--gray); font-size: 0.8rem;">${data.message || "Votre courriel est relié au Jardin Numérique. Consultez votre boîte de réception."}</p>
+            </div>
+          `
+        }
       } else {
         button.disabled = false
         button.innerHTML = originalBtnText
