@@ -20,3 +20,7 @@ Thumbs.db
 Deploy-Garden.ps1
 Push-To-Main.ps1
 *.ps1
+
+# Secrets & environment
+.env*
+
