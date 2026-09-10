@@ -25,6 +25,7 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import Telemetry from "./Telemetry"
 import Newsletter from "./Newsletter"
+import LanguageToggle from "./LanguageToggle"
 
 export {
   ArticleTitle,
@@ -33,6 +34,7 @@ export {
   FolderContent,
   Darkmode,
   ReaderMode,
+  LanguageToggle,
   Head,
   PageTitle,
   ContentMeta,

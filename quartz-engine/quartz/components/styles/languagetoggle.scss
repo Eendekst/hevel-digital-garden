@@ -1,0 +1,106 @@
+.lang-toggle-wrapper {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.lang-toggle-btn {
+  cursor: pointer;
+  padding: 0 4px;
+  position: relative;
+  background: var(--glass-background) !important;
+  border: 1px solid var(--glass-border) !important;
+  height: 26px;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-family: var(--codeFont) !important;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--darkgray);
+  flex-shrink: 0;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+  line-height: 1;
+
+  &:hover {
+    border-color: var(--secondary) !important;
+    color: var(--dark);
+    box-shadow: 0 0 8px var(--glow-color);
+  }
+
+  .lang-pill {
+    padding: 2px 5px;
+    transition: all 0.15s ease;
+    display: inline-block;
+    letter-spacing: 0.3px;
+  }
+
+  .lang-divider {
+    opacity: 0.4;
+    font-size: 0.65rem;
+    padding: 0 1px;
+    user-select: none;
+  }
+
+  &[data-lang="original"] {
+    .lang-orig {
+      background-color: var(--secondary) !important;
+      color: var(--light) !important;
+      font-weight: 700;
+      box-shadow: 0 0 6px var(--glow-color);
+    }
+    .lang-fr {
+      color: var(--darkgray);
+      opacity: 0.65;
+    }
+  }
+
+  &[data-lang="fr"] {
+    .lang-fr {
+      background-color: var(--secondary) !important;
+      color: var(--light) !important;
+      font-weight: 700;
+      box-shadow: 0 0 6px var(--glow-color);
+    }
+    .lang-orig {
+      color: var(--darkgray);
+      opacity: 0.65;
+    }
+  }
+}
+
+/* Suppress Google Translate intrusive banners, frames, and overlays */
+.goog-te-banner-frame.skiptranslate,
+.goog-te-banner-frame,
+iframe.goog-te-banner-frame {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  border: none !important;
+}
+
+body {
+  top: 0px !important;
+  position: static !important;
+}
+
+.goog-tooltip,
+.goog-tooltip:hover {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+#google_translate_element {
+  display: none !important;
+}
+
+body > .skiptranslate {
+  display: none !important;
+}
