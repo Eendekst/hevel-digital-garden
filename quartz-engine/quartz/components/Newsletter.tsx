@@ -9,27 +9,27 @@ export default (() => {
       <div class={classNames(displayClass, "quartz-newsletter-wrapper")}>
         <div class="quartz-newsletter-card">
           <div class="quartz-newsletter-badge">
-            <span>DÉPÊCHE HEVEL // SIGNAL CONNECTÉ</span>
+            <span>Stay Updated</span>
           </div>
-          <h3 class="quartz-newsletter-title">Abonnez-vous aux Dépêches du Jardin</h3>
+          <h3 class="quartz-newsletter-title">Subscribe To Hevel's Newsletter</h3>
           <p class="quartz-newsletter-desc">
-            Recevez un aperçu direct à chaque nouvelle note publiée sur le Jardin Numérique, ainsi que les stratégies exclusives d'Intelligence Augmentée de Jason Guillauto.
+            Get a direct overview with every new note published on the Digital Garden, along with Hevel's exclusive Augmented Intelligence strategies.
           </p>
           <div id="quartz-newsletter-status" style="display: none; margin-bottom: 12px;"></div>
           <form id="quartz-newsletter-form" class="quartz-newsletter-form">
             <input
               id="quartz-newsletter-email"
               type="email"
-              placeholder="votre-courriel@domaine.com"
+              placeholder="your-email@domain.com"
               required
               class="quartz-newsletter-input"
             />
             <button id="quartz-newsletter-btn" type="submit" class="quartz-newsletter-btn">
-              Rejoindre
+              Subscribe
             </button>
           </form>
           <div class="quartz-newsletter-footnote">
-            Zéro spam. Désabonnement instantané en un clic.
+            Zero spam. One-click instant unsubscribe.
           </div>
         </div>
       </div>
