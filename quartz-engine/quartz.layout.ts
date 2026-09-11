@@ -14,6 +14,7 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
+      Hevel: "https://www.hevel.ca",
       Pinterest: "https://ca.pinterest.com/HevelInsights/",
       Instagram: "https://www.instagram.com/hevelshow/",
       YouTube: "https://www.youtube.com/@HevelProd",
