@@ -40,10 +40,18 @@ export default (() => {
     const isIndex = fileData.slug === "index"
     const is404 = fileData.slug === "404"
     const socialLinks = [
+      "https://hevel.ca",
+      "https://garden.hevel.ca",
+      "https://ricky.hevel.ca",
+      "https://nutrition.hevel.ca",
+      "https://caleriemax.ca",
+      "https://x.com/GuillautoJason",
+      "https://www.facebook.com/profile.php?id=100095074751442",
       "https://www.youtube.com/@HevelProd",
       "https://www.instagram.com/hevelshow/",
       "https://www.tiktok.com/@hevelstudio",
       "https://ca.pinterest.com/HevelInsights/",
+      "https://github.com/Eendekst",
     ]
 
     const jsonLdGraph: any[] = []
@@ -231,6 +239,13 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+        <meta name="geo.region" content="CA-QC" />
+        <meta name="geo.placename" content="Montréal, Québec" />
+        <meta name="geo.position" content="45.5017;-73.5673" />
+        <meta name="ICBM" content="45.5017, -73.5673" />
+        <link rel="alternate" hrefLang="fr-CA" href={socialUrl} />
+        <link rel="alternate" hrefLang="en-US" href={socialUrl} />
+        <link rel="alternate" hrefLang="x-default" href={socialUrl} />
 
         {jsonLdPayload && (
           <script
