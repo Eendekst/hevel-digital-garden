@@ -1,0 +1,11 @@
+=== Quartz Syncer Diagnostics ===
+Time: 2026-07-21T16:15:27.762Z
+Remote URL: https://github.com/Eendekst/hevel-digital-garden.git
+Branch: main
+Username: Eendekst
+Auth Type: basic
+Has Secret: yes
+Secret Length: 93
+Secret Prefix: github_pat
+Read Access: SUCCESS
+Write Access: SUCCESS
