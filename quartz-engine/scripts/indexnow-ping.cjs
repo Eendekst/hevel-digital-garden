@@ -6,37 +6,22 @@ const host = 'garden.hevel.ca';
 const key = 'hevelca0indexnowkey202688998899';
 const keyLocation = `https://${host}/${key}.txt`;
 
-function getAllUrls(dirPath, arrayOfUrls = []) {
-  if (!fs.existsSync(dirPath)) return arrayOfUrls;
-  const files = fs.readdirSync(dirPath);
+const urlList = [`https://${host}/`];
 
-  files.forEach((file) => {
-    const fullPath = path.join(dirPath, file);
-    if (fs.statSync(fullPath).isDirectory()) {
-      arrayOfUrls = getAllUrls(fullPath, arrayOfUrls);
-    } else if (file.endsWith('.html')) {
-      let relativePath = path.relative(path.join(__dirname, '../public'), fullPath).replace(/\\/g, '/');
-      if (relativePath === 'index.html') {
-        arrayOfUrls.push(`https://${host}/`);
-      } else if (relativePath.endsWith('index.html')) {
-        arrayOfUrls.push(`https://${host}/${relativePath.replace('/index.html', '')}`);
-      } else {
-        arrayOfUrls.push(`https://${host}/${relativePath.replace('.html', '')}`);
+const contentIndexPath = path.join(__dirname, '..', 'public', 'static', 'contentIndex.json');
+if (fs.existsSync(contentIndexPath)) {
+  try {
+    const raw = fs.readFileSync(contentIndexPath, 'utf-8');
+    const index = JSON.parse(raw);
+    for (const slug of Object.keys(index)) {
+      if (slug !== 'index' && slug !== '404') {
+        urlList.push(`https://${host}/${slug}`);
       }
     }
-  });
-
-  return arrayOfUrls;
+  } catch (e) {
+    console.error('Error reading contentIndex.json:', e.message);
+  }
 }
-
-const publicDir = path.join(__dirname, '../public');
-let urlList = getAllUrls(publicDir);
-
-if (urlList.length === 0) {
-  urlList = [`https://${host}/`];
-}
-
-urlList = urlList.slice(0, 10000);
 
 const payload = JSON.stringify({
   host,
