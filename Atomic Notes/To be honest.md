@@ -17,22 +17,22 @@ I realized my Garden's structure had the form of an ring but was missing a file.
 # This is the file
 ___
 The two concepts that didn't connect were my definitions of data analysis;
-* [[BRAND/Garden/Atomic Notes/Puzzle Pieces of Potential|Puzzle Pieces of Potential]]
-* [[BRAND/Garden/Atomic Notes/potential|potential]]
-* [[BRAND/Garden/Atomic Notes/Global Optimization|Global Optimization]]
-* [[BRAND/Garden/Atomic Notes/Big-Picture-View|Big-Picture-View]]
-* [[BRAND/Garden/Atomic Notes/The APPASA Protocol|The APPASA Protocol]]
+* [[Atomic Notes/Puzzle Pieces of Potential|Puzzle Pieces of Potential]]
+* [[Atomic Notes/potential|potential]]
+* [[Atomic Notes/Global Optimization|Global Optimization]]
+* [[Atomic Notes/Big-Picture-View|Big-Picture-View]]
+* [[Atomic Notes/The APPASA Protocol|The APPASA Protocol]]
 ![[Pasted image 20260730104134.png]]
 
 and of faith;
-* [[BRAND/Garden/Atomic Notes/Cast Your Burden|Cast Your Burden]]
-* [[BRAND/Garden/Atomic Notes/True Forgiveness|True Forgiveness]]
-* [[BRAND/Garden/Atomic Notes/Treasures in Darkness|Treasures in Darkness]]
+* [[Atomic Notes/Cast Your Burden|Cast Your Burden]]
+* [[Atomic Notes/True Forgiveness|True Forgiveness]]
+* [[Atomic Notes/Treasures in Darkness|Treasures in Darkness]]
 ![[Pasted image 20260730113325.png]]
 ### The truth is 
 that I don't know how to read like God reads. But, my notes  give me important cues
 
-The conflict between my analytical mind and faith is [[BRAND/Garden/Atomic Notes/The APPASA Protocol|The APPASA Protocol]]. It's a data analysis procedure I learned on Kaggle.
+The conflict between my analytical mind and faith is [[Atomic Notes/The APPASA Protocol|The APPASA Protocol]]. It's a data analysis procedure I learned on Kaggle.
 
 Apparently, if my data analysis methodology is not rooted in the Bible, my understanding is not unified and complete.
 
