@@ -45,6 +45,7 @@ export default (() => {
       "https://ricky.hevel.ca",
       "https://nutrition.hevel.ca",
       "https://caleriemax.ca",
+      "https://www.etsy.com/shop/HevelCo",
       "https://x.com/GuillautoJason",
       "https://www.facebook.com/profile.php?id=100095074751442",
       "https://www.youtube.com/@HevelProd",

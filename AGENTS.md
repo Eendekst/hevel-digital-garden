@@ -9,6 +9,7 @@
 ---
 
 ## 2. Boundaries & Roles
+- **Master Ecosystem Alignment File:** `c:\Users\Hevel\Lab\Mobile\BRAND\Repos Mapping.md`
 - **Primary Domain:** `garden.hevel.ca`
 - **Engine Directory:** `c:\Users\Hevel\Lab\Mobile\BRAND\Garden\quartz-engine`
 - **Vault Location:** `c:\Users\Hevel\Lab\Mobile\BRAND\Garden`
