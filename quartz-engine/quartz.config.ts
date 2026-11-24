@@ -13,7 +13,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      tagId: "G-DRRTCZ4WNT",
     },
     locale: "en-US",
     baseUrl: "garden.hevel.ca",
