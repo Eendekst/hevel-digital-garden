@@ -391,7 +391,11 @@ function findPluginByPackageName(packageName: string): string | null {
  */
 function trySymlink(target: string, linkPath: string): void {
   try {
-    fs.symlinkSync(target, linkPath, "dir")
+    try {
+      fs.symlinkSync(target, linkPath, process.platform === "win32" ? "junction" : "dir")
+    } catch {
+      fs.cpSync(target, linkPath, { recursive: true })
+    }
   } catch (err: unknown) {
     if ((err as NodeJS.ErrnoException).code === "EEXIST") return
     throw err
@@ -568,7 +572,11 @@ export async function installPlugin(
       console.log(styleText("cyan", `→`), `Linking ${spec.name} from ${spec.repo}...`)
     }
 
-    fs.symlinkSync(spec.repo, pluginDir, "dir")
+    try {
+      fs.symlinkSync(spec.repo, pluginDir, process.platform === "win32" ? "junction" : "dir")
+    } catch {
+      fs.cpSync(spec.repo, pluginDir, { recursive: true })
+    }
 
     if (options.verbose) {
       console.log(styleText("green", `✓`), `Linked ${spec.name}`)
