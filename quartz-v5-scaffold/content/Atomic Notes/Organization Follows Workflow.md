@@ -1,0 +1,26 @@
+---
+title: "Organization Follows Workflow"
+publish: true
+created: 2026-07-11
+modified: 2026-09-08
+author: Jason
+description: "Empirical organization theory: never predict folder hierarchies in advance; allow structure and classification to emerge from actual workflow."
+tags: [administration, ai]
+aliases: []
+cssclasses: []
+cover: "[[Green-and-water-droplets.gif]]"
+---
+# Only The Flow Matters
+___
+> *"L'organisation initiale est issue du workflow initial."*
+> (Initial organization comes from the initial workflow.)
+
+We often try to build "The Perfect System" (Organization) before we have done any work (Workflow).
+This is the architecture of a tomb.
+
+**Life is movement.**
+1.  **Start moving** (Create potential energy).
+2.  **Observe the path** (The Workflow).
+3.  **Pave the path** (The Organization).
+
+Don't build a bookshelf before you own a book.

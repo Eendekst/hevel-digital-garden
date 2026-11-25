@@ -10,8 +10,10 @@
 - **Standalone Repository**: `https://github.com/Eendekst/hevel-digital-garden.git` (`main` branch)
 - **Vault Location**: `Mobile/BRAND/Garden/` (lives directly inside the Obsidian vault)
 - **Hosting / Infrastructure**: GitHub Pages (automated deployment via GitHub Actions)
-- **Engine**: Quartz 4.0 static site generator (`quartz-engine/`)
+- **Engine**: Quartz 5.2.2 static site generator (`quartz-v5-scaffold/` staging, transitioning `quartz-engine/`)
 - **Web Developer & SEO/GEO Agent**: **Excellence**
+- **Autonomous Publisher**: Pinned warm **Gemma 4 e2b** daemon executing end-to-end sync, build gates, semantic commits, and pushes
+- **Asset Publishing**: `publishAssets: referenced` (optimized lean bundle)
 - **Lead Capture**: Interactive inline newsletter module submitting to central gateway `https://www.hevel.ca/api/newsletter` (`group: 'hevel'`)
 - **Verified Mailbox**: `Hevel Protocol <jason@hevel.ca>`
 

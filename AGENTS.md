@@ -31,14 +31,16 @@ Excellence must structure and optimize all generated output for human and AI cra
 
 ---
 
-## 4. Tech Stack & Quartz 4.0 Engine Protocols
-- **Engine:** Quartz 4.0 (TypeScript, SCSS, JSX/TSX, Pixi.js for Graph View)
-- **Engine Location:** `quartz-engine/`
+## 4. Tech Stack & Quartz Engine Protocols
+- **Engine Baseline:** Quartz v5.2.2 (Node >= 22, ESM, Preact, `quartz.config.yaml`)
+- **Staging / Engine Directory:** `quartz-v5-scaffold/` (transitioning to `quartz-engine/`)
+- **Asset Publishing:** `publishAssets: referenced` (only bundled when referenced in published notes)
+- **Autonomous Daemon:** Pinned warm Gemma 4 e2b daemon (`scripts/gemma-publisher.mjs`) handles live `@garden` shadow sync, build gate verification, semantic commit crafting, and automated Git pushes.
 - **Local Build Gate:**
   ```bash
-  npx quartz build # Must be run inside quartz-engine/
+  node ./quartz/bootstrap-cli.mjs build # Must exit with code 0
   ```
-  **MANDATORY RULE:** Excellence MUST execute and verify a clean local `npx quartz build` with 0 compilation, type, or SCSS errors BEFORE committing or pushing.
+  **MANDATORY RULE:** Excellence MUST execute and verify a clean local build with 0 compilation, type, or SCSS errors BEFORE committing or pushing.
 
 ---
 

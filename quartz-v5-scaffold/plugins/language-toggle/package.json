@@ -1,0 +1,30 @@
+{
+  "name": "language-toggle",
+  "version": "1.0.0",
+  "description": "EN / FR bilingual toggle for Hevel Digital Garden",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "quartz": {
+    "name": "language-toggle",
+    "displayName": "Language Toggle",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {},
+    "components": {
+      "LanguageToggle": {
+        "displayName": "Language Toggle",
+        "defaultPosition": "left",
+        "defaultPriority": 38
+      }
+    }
+  }
+}

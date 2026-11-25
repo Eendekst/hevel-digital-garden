@@ -24,14 +24,14 @@ jobs:
       - name: Shadow Patch (Sync Content)
         run: |
           # Wipe any stale notes previously committed inside the engine
-          rm -rf quartz-engine/content
-          mkdir -p quartz-engine/content
-          # Copy all files from root to content, excluding quartz-engine .git .github
-          rsync -av --exclude='quartz-engine' --exclude='.git' --exclude='.github' --exclude='CONTEXT.md' . quartz-engine/content/
+          rm -rf quartz-v5-scaffold/content
+          mkdir -p quartz-v5-scaffold/content
+          # Copy all files from root to content, excluding engines, scripts, .git, .github
+          rsync -av --exclude='quartz-engine' --exclude='quartz-v5-scaffold' --exclude='scripts' --exclude='.git' --exclude='.github' --exclude='CONTEXT.md' --exclude='AGENTS.md' . quartz-v5-scaffold/content/
           # Safety filter: remove any .md files without 'publish: true' in frontmatter
           python3 - <<'PYEOF'
           import os, re
-          content_dir = "quartz-engine/content"
+          content_dir = "quartz-v5-scaffold/content"
           removed = 0
           for root, dirs, files in os.walk(content_dir):
               dirs[:] = [d for d in dirs if d not in ['.git', '.github', '.obsidian']]
@@ -52,18 +52,18 @@ jobs:
                       removed += 1
           print(f"Safety filter: removed {removed} private notes from build")
           PYEOF
-          if [ -f quartz-engine/content/Home.md ]; then
-            mv quartz-engine/content/Home.md quartz-engine/content/index.md
+          if [ -f quartz-v5-scaffold/content/Home.md ]; then
+            mv quartz-v5-scaffold/content/Home.md quartz-v5-scaffold/content/index.md
           fi
           
       - name: Install Dependencies
-        working-directory: quartz-engine
-        run: npm ci
+        working-directory: quartz-v5-scaffold
+        run: npm install --no-audit --no-fund
         
       - name: Build
-        working-directory: quartz-engine
+        working-directory: quartz-v5-scaffold
         run: |
-          npx quartz build
+          node ./quartz/bootstrap-cli.mjs build
           if [ -f ../llms.txt ]; then
             cp ../llms.txt public/llms.txt
           fi
@@ -76,6 +76,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: quartz-engine/public
+          publish_dir: quartz-v5-scaffold/public
           publish_branch: gh-pages
           force_orphan: true
